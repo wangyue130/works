@@ -1,0 +1,1729 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/global.css" />
+		<link rel="stylesheet" href="../css/Tmall_homepage.css" />
+		<link rel="stylesheet" href="../css/public.css"/>
+		<!--[if lt IE 8]>
+		<link rel="stylesheet" href="../css/fixIE.css" />
+		<![endif]-->
+		<script src="../js/html5shiv.js"></script>
+	</head>
+	<body>
+		<!--问题：
+			1、占位置的用div，尽量不要用span
+			2、竖线可以用border-right来做
+			3、工作中0、1这样变动的数字要沟通后得知是否需要更换
+			4、底部一横行一横行的写
+			5、把固定定位放在跟header、content、footer同级的位置
+			6、固定定位里面的内容竖排的话设置宽度就可以竖下来了
+			7、商品服务分类下面的导航后面有三角，hover时触发二级导航，三角可以写在每一个li里面，这样工作上好维护
+		-->
+		<!--头部部分-->
+		<header class="header">
+			<div class="hang">
+				<div class="hang_width">
+					<span class="hang_left fl">
+						<a href="" class="Tmall_HPage fl">
+							<s class="bg1 Tmall_HPage_icon fl"></s>
+							<span class="Tmall_HPage_text fl">天猫首页</span>
+						</a>
+						<span class="welcome fl">喵，欢迎来天猫</span>
+						<a href="" class="log fl">请登录</a>
+						<a href="" class="register fl">免费注册</a>
+					</span>
+					<span class="hang_right fr">
+						<a href="" class="my_Tmall fl">
+							<span class="my_Tmall_text fl">我的淘宝</span>
+							<s class="bg1 my_Tmall_icon fl"></s>
+						</a>
+						<a href="" class="attention_brand fl">
+							<s class="bg1 attention_brand_icon fl"></s>
+							<span class="attention_brand_text fl">我关注的品牌</span>
+						</a>
+						<a href="" class="shoppingcar fl">
+							<s class="bg1 shoppingcar_icon fl"></s>
+							<span class="shoppingcar_text fl">购物车0件</span>
+						</a>
+						<a href="" class="favorite fl">
+							<span class="favorite_text fl">收藏夹</span>
+							<s class="bg1 favorite_icon fl"></s>
+						</a>
+						<span class="line fl"></span>
+						<a href="" class="phone fl">
+							<s class="bg1 phone_icon fl"></s>
+							<span class="phone_text fl">手机版</span>
+						</a>
+						<a href="" class="taobaoweb fl">淘宝网</a>
+						<a href="" class="merchant fl">
+							<span class="merchant_text fl">商家支持</span>
+							<s class="bg1 merchant_icon fl"></s>
+						</a>
+						<a href="" class="web_nav fl">
+							<s class="bg1 web_nav_icon1 fl"></s>
+							<span class="web_nav_text fl">网站导航</span>
+							<s class="bg1 web_nav_icon2 fl"></s>
+						</a>
+					</span>
+				</div>
+			</div>
+			<div class="header2">
+				<h1 class="count_down_pic fl">
+					<a href="" class="logo bg1 fl">天猫双十一</a>
+					<s class="num1 bg1"></s>
+					<s class="num2 bg1"></s>
+				</h1>
+				<div class="search fl">
+					<form>
+						<input type="text" name="" placeholder="魅族PRO5 追求极致" class="searchline fl" />
+						<input type="submit" name="" class="search_btn fl" value="搜索"/>
+					</form>
+					<ul class="search_key">
+						<li class="search_key_box fl">
+							<a href="" class="search_key_text clr">开衫 女</a>
+							<span class="line"></span>
+						</li>
+						<li class="search_key_box fl">
+							<a href="" class="search_key_text">云冠橙</a>
+							<span class="line"></span>
+						</li>
+						<li class="search_key_box fl">
+							<a href="" class="search_key_text clr">护肤套装</a>
+							<span class="line"></span>
+						</li>
+						<li class="search_key_box fl">
+							<a href="" class="search_key_text">洗鼻器</a>
+							<span class="line"></span>
+						</li>
+						<li class="search_key_box fl">
+							<a href="" class="search_key_text">婚庆床品</a>
+							<span class="line"></span>
+						</li>
+						<li class="search_key_box fl">
+							<a href="" class="search_key_text clr">大闸蟹</a>
+							<span class="line"></span>
+						</li>
+						<li class="search_key_box fl">
+							<a href="" class="search_key_text clr">喜糖</a>
+							<span class="line"></span>
+						</li>
+						<li class="search_key_box fl">
+							<a href="" class="search_key_text">洗衣机</a>
+							<span class="line"></span>
+						</li>
+					</ul>
+				</div>
+				<a href="" class="adv_pink">
+					<img src="../img/adv_pink.jpg" />
+				</a>
+			</div>
+		</header>
+		<!--内容部分-->
+		<!--IE6不支持固定定位-->
+		<div class="fix_box">
+				<a href="" class="tmall_icon bg1 fl"></a>
+				<a href="" class="shop_car1 fl">
+					<i class="shop_car bg1"></i>
+					<span class="fl">购物车</span>
+				</a>
+				<a href="" class="cash bg1"></a>
+				<a href="" class="xin bg1"></a>
+				<a href="" class="xingxing bg1"></a>
+				<a href="" class="lishi bg1"></a>
+				<a href="" class="chong bg1"></a>
+				<a href="" class="bi bg1"></a>
+				<a href="" class="erweima bg1"></a>
+		</div>
+		<div class="content">
+			<div class="nav">
+				<div class="nav_width clearfix">
+					<span class="nav1 fl">商品服务分类</span>
+					<span class="nav2 fl">
+						<a href="">尚天猫</a>
+						<a href="">喵鲜生</a>
+						<a href="">天猫会员</a>
+						<a href="">电器城</a>
+						<a href="">天猫超市</a>
+						<a href="">医药馆</a>
+						<a href="">阿里旅行</a>
+						<a href="">天猫国际</a>
+					</span>
+				</div>
+			</div>
+			<div class="banner">
+				<div class="banner_width">
+					<ul class="nav_left fl">
+							<li class="nav_left_box fl nav_left_box_active">
+								<s class="bg1 nav_left_pic1 fl public"></s>
+								<a href="" class="nav_left_text fl">精选市场</a>
+								<b class="sanjiao bg1"></b>
+								<ul class="submenu">
+									<li>
+										<a href="" class="submenu_text">男装</a>
+									</li>
+									<li>
+										<a href="" class="submenu_text">电器</a>
+									</li>
+									<li>
+										<a href="" class="submenu_text">女装</a>
+									</li>
+									<li>
+										<a href="" class="submenu_text">箱包</a>
+									</li>
+									<li>
+										<a href="" class="submenu_text">男鞋</a>
+									</li>
+									<li>
+										<a href="" class="submenu_text">美妆</a>
+									</li>
+									<li>
+										<a href="" class="submenu_text">女鞋</a>
+									</li>
+									<li>
+										<a href="" class="submenu_text">汽车</a>
+									</li>
+									<li>
+										<a href="" class="submenu_text">运动</a>
+									</li>
+									<li>
+										<a href="" class="submenu_text">内衣</a>
+									</li>
+									<li>
+										<a href="" class="submenu_text">母婴</a>
+									</li>
+									<li class="new">
+										<a href="" class="submenu_text">腕表</a>
+										<i class="greenicon bg1"></i>
+									</li>
+								</ul>
+							</li>
+							<li class="nav_left_box fl">
+								<s class="bg1 nav_left_pic2 fl public"></s>
+								<a href="" class="nav_left_text fl">女装/内衣</a>
+							</li>
+							<li class="nav_left_box fl">
+								<s class="bg1 nav_left_pic3 fl public"></s>
+								<a href="" class="nav_left_text fl">男装/运动户外</a>
+							</li>
+							<li class="nav_left_box fl">
+								<s class="bg1 nav_left_pic4 fl public"></s>
+								<a href="" class="nav_left_text fl">女鞋/男鞋/箱包</a>
+							</li>
+							<li class="nav_left_box fl">
+								<s class="bg1 nav_left_pic5 fl public"></s>
+								<a href="" class="nav_left_text fl">化妆品/个人护理</a>
+							</li>
+							<li class="nav_left_box fl">
+								<s class="bg1 nav_left_pic6 fl public"></s>
+								<a href="" class="nav_left_text fl">手机/数码/电脑办公</a>
+							</li>
+							<li class="nav_left_box fl">
+								<s class="bg1 nav_left_pic7 fl public"></s>
+								<a href="" class="nav_left_text fl">母婴玩具</a>
+							</li>
+							<li class="nav_left_box fl">
+								<s class="bg1 nav_left_pic8 fl public"></s>
+								<a href="" class="nav_left_text fl">零食/进口食品/茶酒</a>
+							</li>
+							<li class="nav_left_box fl">
+								<s class="bg1 nav_left_pic9 fl public"></s>
+								<a href="" class="nav_left_text fl">大家电/生活电器</a>
+							</li>
+							<li class="nav_left_box fl">
+								<s class="bg1 nav_left_pic10 fl public"></s>
+								<a href="" class="nav_left_text fl">家具建材</a>
+							</li>
+							<li class="nav_left_box fl">
+								<s class="bg1 nav_left_pic11 fl public"></s>
+								<a href="" class="nav_left_text fl">腕表/珠宝饰品/眼镜</a>
+							</li>
+							<li class="nav_left_box fl">
+								<s class="bg1 nav_left_pic12 fl public"></s>
+								<a href="" class="nav_left_text fl">汽车/配件/用品</a>
+							</li>
+							<li class="nav_left_box fl">
+								<s class="bg1 nav_left_pic13 fl public"></s>
+								<a href="" class="nav_left_text fl">家纺/布艺/鲜花</a>
+							</li>
+							<li class="nav_left_box fl">
+								<s class="bg1 nav_left_pic14 fl public"></s>
+								<a href="" class="nav_left_text fl">医药保健</a>
+							</li>
+							<li class="nav_left_box fl">
+								<s class="bg1 nav_left_pic15 fl public"></s>
+								<a href="" class="nav_left_text fl">厨具/收纳/宠物</a>
+							</li>
+							<li class="nav_left_box fl">
+								<s class="bg1 nav_left_pic16 fl public"></s>
+								<a href="" class="nav_left_text fl">图书音像</a>
+							</li>
+					</ul>
+					<div class="ban_center fl">
+						<a href="" class="ban_center_pic">
+							<img src="../img/ban_center.jpg" />
+						</a>
+						<span class="change_page">
+							<a href="" class="page1 wh20 fl mr6 bg1"></a>
+							<a href="" class="page2 wh20 fl mr6 bg1"></a>
+							<a href="" class="page3 wh20 fl mr6 bg1"></a>
+							<a href="" class="page4 wh20 fl mr6 bg1"></a>
+							<a href="" class="page5 wh20 fl mr0 bg1"></a>
+						</span>
+					</div>
+					<a href="" class="small_adv fl">
+						<img src="../img/small_adv.jpg">
+					</a>
+				</div>
+			</div>
+			<div class="hot_brand">
+				<header class="hot_brand_top">
+					<div class="title clearfix fl">
+						<h4 class="title_pic bg1 fl">热门品牌</h4>
+					</div>
+					<div class="classify fl">
+						<a href="" class="classify_text fl">国际大牌</a>
+						<a href="" class="classify_text fl">时尚潮牌</a>
+						<a href="" class="classify_text fl active">国内名牌</a>
+						<a href="" class="classify_text fl">天猫原创</a>
+					</div>
+					<!--<div class="change fl"></div>-->
+				</header>
+				<div class="brand_list">
+					<div class="left fl">
+						<img src="../img/hot_left_pic.jpg">
+					</div>
+					<div class="center fl">
+						<a href="" class="brand1 fl">
+							<img src="../img/brand1.jpg" />
+						</a>
+						<a href="" class="brand1 fl">
+							<img src="../img/brand1.jpg" />
+						</a>
+						<a href="" class="brand1 fl">
+							<img src="../img/brand1.jpg" />
+						</a>
+						<a href="" class="brand1 fl">
+							<img src="../img/brand1.jpg" />
+						</a>
+						<a href="" class="brand1 fl">
+							<img src="../img/brand1.jpg" />
+						</a>
+						<a href="" class="brand1 fl mr0">
+							<img src="../img/brand1.jpg" />
+						</a>
+						<a href="" class="brand1 fl">
+							<img src="../img/brand1.jpg" />
+						</a>
+						<a href="" class="brand1 fl">
+							<img src="../img/brand1.jpg" />
+						</a>
+						<a href="" class="brand1 fl">
+							<img src="../img/brand1.jpg" />
+						</a>
+						<a href="" class="brand1 fl">
+							<img src="../img/brand1.jpg" />
+						</a>
+						<a href="" class="brand1 fl">
+							<img src="../img/brand1.jpg" />
+						</a>
+						<a href="" class="brand1 fl mr0">
+							<img src="../img/brand1.jpg" />
+						</a>
+						<a href="" class="brand1 fl">
+							<img src="../img/brand1.jpg" />
+						</a>
+						<a href="" class="brand1 fl">
+							<img src="../img/brand1.jpg" />
+						</a>
+						<a href="" class="brand1 fl">
+							<img src="../img/brand1.jpg" />
+						</a>
+						<a href="" class="brand1 fl">
+							<img src="../img/brand1.jpg" />
+						</a>
+						<a href="" class="brand1 fl">
+							<img src="../img/brand1.jpg" />
+						</a>
+						<a href="" class="brand1 fl mr0">
+							<img src="../img/brand1.jpg" />
+						</a>
+						<a href="" class="brand1 fl mb0">
+							<img src="../img/brand1.jpg" />
+						</a>
+						<a href="" class="brand1 fl mb0">
+							<img src="../img/brand1.jpg" />
+						</a>
+						<a href="" class="brand1 fl mb0">
+							<img src="../img/brand1.jpg" />
+						</a>
+						<a href="" class="brand1 fl mb0">
+							<img src="../img/brand1.jpg" />
+						</a>
+						<a href="" class="brand1 fl mb0">
+							<img src="../img/brand1.jpg" />
+						</a>
+						<a href="" class="brand1 fl mr0 mb0">
+							<img src="../img/brand1.jpg" />
+						</a>
+					</div>
+					<div class="right fl">
+						<a href="" class="right_adv fl">
+							<img src="../img/hot_right_pic.jpg">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="underhot_brand">
+				<a href="" class="underhot_brand_adv">
+					<img src="../img/underhot_brand_adv.jpg"/>
+				</a>
+			</div>
+			<!--floor1-->
+			<div class="floor">
+				<div class="floor_line1 fl">
+					<div class="floor_line1_top1 bg1">
+						<a href="" class="floor_line1_top_left1 fl">
+							<s class="adv_left bg1"></s>
+							<span class="adv_text1">女装</span>
+						</a>
+						<a href="" class="floor_line1_top_right fl">
+							<s class="adv_right bg1"></s>
+							<span class="adv_text2">内衣</span>
+						</a>
+					</div>
+					<div class="floor_line1_middle">
+						<a href="" class="left_page bg1 fl"></a>
+						<div class="change_brand fl pl14 pt15">
+							<a href="" class="middle fl mb18">
+								<img src="../img/middle1.jpg">
+							</a>
+							<a href="" class="middle fl mb10">
+								<img src="../img/middle2.jpg">
+							</a>
+							<a href="" class="middle fl">
+								<img src="../img/middle3.jpg">
+							</a>
+						</div>
+						<a href="" class="right_page bg1 fl"></a>
+					</div>
+					<div class="floor_line1_bottom">
+						<a href="" class="detail">冬季新品</a>
+						<a href="" class="detail">潮流女装</a>
+						<a href="" class="detail">毛呢大衣</a>
+						<a href="" class="detail">羽绒服</a>
+						<a href="" class="detail">连衣裙</a>
+						<a href="" class="detail">商场同款</a>
+						<a href="" class="detail">品质内衣</a>
+						<a href="" class="detail">bra吊带</a>
+					</div>
+				</div>
+				<div class="floor_line2 fl">
+					<div class="big_adv_box">
+						<img src="../img/line2.jpg" width="399" height="422"/>
+						<span class="trans"></span>
+						<span class="big_adv_box_content">
+							<span class="row_top_text">低价开抢</span>
+							<span class="row"></span>
+							<span class="row_bottom_text">国际开仓日</span>
+						</span>
+					</div>
+					<a href="" class="big_adv"></a>
+				</div>
+				<div class="floor_line3 fl">
+					<ul class="floor_line3_top fl">
+						<li class="brand_detail fl">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic.jpg">
+							</a>
+						</li>
+						<li class="brand_detail fl">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic1.jpg">
+							</a>
+						</li>
+						<li class="brand_detail fl br0">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic2.jpg">
+							</a>
+						</li>
+					</ul>
+					<ul class="floor_line3_bottom fl">
+						<li class="small_detail fl">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+						<li class="small_detail fl">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+						<li class="small_detail fl br0">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--floor2-->
+			<div class="floor">
+				<div class="floor_line1 fl">
+					<div class="floor_line1_top2 bg1">
+						<a href="" class="floor_line1_top_left2 fl">
+							<s class="adv_left2 bg1"></s>
+							<span class="adv_text22">美容护肤</span>
+						</a>
+					</div>
+					<div class="floor_line1_middle">
+						<a href="" class="left_page bg1 fl"></a>
+						<div class="change_brand fl pl14 pt15">
+							<a href="" class="middle fl mb18">
+								<img src="../img/middle1.jpg">
+							</a>
+							<a href="" class="middle fl mb10">
+								<img src="../img/middle2.jpg">
+							</a>
+							<a href="" class="middle fl">
+								<img src="../img/middle3.jpg">
+							</a>
+						</div>
+						<a href="" class="right_page bg1 fl"></a>
+					</div>
+					<div class="floor_line1_bottom2">
+						<span class="beauty">天猫美妆服务保障</span>
+						<a href="" class="beauty_box">
+							<b class="zheng bg1 fl"></b>
+							<span class="beauty_text fl">正品保证</span>
+						</a>
+						<a href="" class="xing_box">
+							<b class="xing bg1 fl"></b>
+							<span class="beauty_text fl">五星包装</span>
+						</a>
+						<a href="" class="saoma_box">
+							<b class="saoma bg1 fl"></b>
+							<span class="beauty_text fl">扫码溯源</span>
+						</a>
+					</div>
+				</div>
+				<div class="floor_line2 fl">
+					<div class="big_adv_box">
+						<img src="../img/line2.jpg" width="399" height="422"/>
+						<span class="trans"></span>
+						<span class="big_adv_box_content">
+							<span class="row_top_text">低价开抢</span>
+							<span class="row"></span>
+							<span class="row_bottom_text">国际开仓日</span>
+						</span>
+					</div>
+					<a href="" class="big_adv"></a>
+				</div>
+				<div class="floor_line3 fl">
+					<ul class="floor_line3_top fl">
+						<li class="brand_detail fl">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic3.jpg">
+							</a>
+						</li>
+						<li class="brand_detail fl">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic4.jpg">
+							</a>
+						</li>
+						<li class="brand_detail fl br0">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic5.jpg">
+							</a>
+						</li>
+					</ul>
+					<ul class="floor_line3_bottom fl">
+						<li class="small_detail fl">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+						<li class="small_detail fl">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+						<li class="small_detail fl br0">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--floor3-->
+			<div class="floor">
+				<div class="floor_line1 fl">
+					<div class="floor_line1_top3 bg1">
+						<a href="" class="floor_line1_top_left1 fl">
+							<s class="adv_left3 bg1"></s>
+							<span class="adv_text1">男装</span>
+						</a>
+						<a href="" class="floor_line1_top_right fl">
+							<s class="adv_right3 bg1"></s>
+							<span class="adv_text2">内衣</span>
+						</a>
+					</div>
+					<div class="floor_line1_middle">
+						<a href="" class="left_page bg1 fl"></a>
+						<div class="change_brand fl pl14 pt15">
+							<a href="" class="middle fl mb18">
+								<img src="../img/middle1.jpg">
+							</a>
+							<a href="" class="middle fl mb10">
+								<img src="../img/middle2.jpg">
+							</a>
+							<a href="" class="middle fl">
+								<img src="../img/middle3.jpg">
+							</a>
+						</div>
+						<a href="" class="right_page bg1 fl"></a>
+					</div>
+					<div class="floor_line1_bottom">
+						<a href="" class="detail">精品男装</a>
+						<a href="" class="detail">大牌新品</a>
+						<a href="" class="detail">国际馆</a>
+						<a href="" class="detail">潮牌管</a>
+						<a href="" class="detail">时尚馆</a>
+						<a href="" class="detail">商务馆</a>
+						<a href="" class="detail">男士内裤</a>
+						<a href="" class="detail">大牌内衣</a>
+					</div>
+				</div>
+				<div class="floor_line2 fl">
+					<div class="big_adv_box">
+						<img src="../img/line2.jpg" width="399" height="422"/>
+						<span class="trans"></span>
+						<span class="big_adv_box_content">
+							<span class="row_top_text">低价开抢</span>
+							<span class="row"></span>
+							<span class="row_bottom_text">国际开仓日</span>
+						</span>
+					</div>
+					<a href="" class="big_adv"></a>
+				</div>
+				<div class="floor_line3 fl">
+					<ul class="floor_line3_top fl">
+						<li class="brand_detail fl">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic6.jpg">
+							</a>
+						</li>
+						<li class="brand_detail fl">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic7.jpg">
+							</a>
+						</li>
+						<li class="brand_detail fl br0">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic8.jpg">
+							</a>
+						</li>
+					</ul>
+					<ul class="floor_line3_bottom fl">
+						<li class="small_detail fl">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+						<li class="small_detail fl">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+						<li class="small_detail fl br0">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="underfloor_adv">
+				<a href="" class="underfloor3_adv">
+					<img src="../img/underfloor3_adv.jpg" />
+				</a>
+			</div>
+			<!--floor4-->
+			<div class="floor">
+				<div class="floor_line1 fl">
+					<div class="floor_line1_top4 bg1">
+						<a href="" class="floor_line1_top_left4 fl">
+							<s class="adv_left4 bg1 fl"></s>
+							<span class="adv_text4 fl">女鞋</span>
+						</a>
+						<a href="" class="floor_line1_top_left4 fl">
+							<s class="adv_center4 bg1 fl"></s>
+							<span class="adv_text4 fl">男鞋</span>
+						</a>
+						<a href="" class="floor_line1_top_left4 fl">
+							<s class="adv_right4 bg1 fl"></s>
+							<span class="adv_text4 fl">箱包</span>
+						</a>
+					</div>
+					<div class="floor_line1_middle">
+						<a href="" class="left_page bg1 fl"></a>
+						<div class="change_brand fl pl14 pt15">
+							<a href="" class="middle fl mb18">
+								<img src="../img/middle1.jpg">
+							</a>
+							<a href="" class="middle fl mb10">
+								<img src="../img/middle2.jpg">
+							</a>
+							<a href="" class="middle fl">
+								<img src="../img/middle3.jpg">
+							</a>
+						</div>
+						<a href="" class="right_page bg1 fl"></a>
+					</div>
+					<div class="floor_line1_bottom">
+						<a href="" class="detail">箱包馆</a>
+						<a href="" class="detail">女鞋馆</a>
+						<a href="" class="detail">女包</a>
+						<a href="" class="detail">单鞋新品</a>
+						<a href="" class="detail">拉杆箱</a>
+						<a href="" class="detail">运动休闲</a>
+						<a href="" class="detail">帆布女鞋</a>
+						<a href="" class="detail">休闲男鞋</a>
+					</div>
+				</div>
+				<div class="floor_line2 fl">
+					<div class="big_adv_box">
+						<img src="../img/line2.jpg" width="399" height="422"/>
+						<span class="trans"></span>
+						<span class="big_adv_box_content">
+							<span class="row_top_text">低价开抢</span>
+							<span class="row"></span>
+							<span class="row_bottom_text">国际开仓日</span>
+						</span>
+					</div>
+					<a href="" class="big_adv"></a>
+				</div>
+				<div class="floor_line3 fl">
+					<ul class="floor_line3_top fl">
+						<li class="brand_detail fl">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic9.jpg">
+							</a>
+						</li>
+						<li class="brand_detail fl">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic10.jpg">
+							</a>
+						</li>
+						<li class="brand_detail fl br0">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic11.jpg">
+							</a>
+						</li>
+					</ul>
+					<ul class="floor_line3_bottom fl">
+						<li class="small_detail fl">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+						<li class="small_detail fl">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+						<li class="small_detail fl br0">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--floor5-->
+			<div class="floor">
+				<div class="floor_line1 fl">
+					<div class="floor_line1_top5 bg1">
+						<a href="" class="floor_line1_top_left5 fl">
+							<s class="adv_left5 bg1 fl"></s>
+							<span class="adv_text5 fl">运动</span>
+						</a>
+						<a href="" class="floor_line1_top_right5 fl">
+							<s class="adv_right5 bg1 fl"></s>
+							<span class="adv_text5 fl">户外</span>
+						</a>
+					</div>
+					<div class="floor_line1_middle">
+						<a href="" class="left_page bg1 fl"></a>
+						<div class="change_brand fl pl14 pt15">
+							<a href="" class="middle fl mb18">
+								<img src="../img/middle1.jpg">
+							</a>
+							<a href="" class="middle fl mb10">
+								<img src="../img/middle2.jpg">
+							</a>
+							<a href="" class="middle fl">
+								<img src="../img/middle3.jpg">
+							</a>
+						</div>
+						<a href="" class="right_page bg1 fl"></a>
+					</div>
+					<div class="floor_line1_bottom">
+						<a href="" class="detail">运动鞋</a>
+						<a href="" class="detail">运动服</a>
+						<a href="" class="detail">潮流精选</a>
+						<a href="" class="detail">女子减肥</a>
+						<a href="" class="detail">户外用品</a>
+						<a href="" class="detail">运动用品</a>
+						<a href="" class="detail">自行车</a>
+						<a href="" class="detail">运动包</a>
+					</div>
+				</div>
+				<div class="floor_line2 fl">
+					<div class="big_adv_box">
+						<img src="../img/line2.jpg" width="399" height="422"/>
+						<span class="trans"></span>
+						<span class="big_adv_box_content">
+							<span class="row_top_text">低价开抢</span>
+							<span class="row"></span>
+							<span class="row_bottom_text">国际开仓日</span>
+						</span>
+					</div>
+					<a href="" class="big_adv"></a>
+				</div>
+				<div class="floor_line3 fl">
+					<ul class="floor_line3_top fl">
+						<li class="brand_detail fl">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic12.jpg">
+							</a>
+						</li>
+						<li class="brand_detail fl">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic13.jpg">
+							</a>
+						</li>
+						<li class="brand_detail fl br0">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic14.jpg">
+							</a>
+						</li>
+					</ul>
+					<ul class="floor_line3_bottom fl">
+						<li class="small_detail fl">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+						<li class="small_detail fl">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+						<li class="small_detail fl br0">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--floor6-->
+			<div class="floor">
+				<div class="floor_line1 fl">
+					<div class="floor_line1_top6 bg1">
+						<a href="" class="floor_line1_top_left6 fl">
+							<s class="adv_left6 bg1 fl"></s>
+							<span class="adv_text6 fl">美容护肤</span>
+						</a>
+					</div>
+					<div class="floor_line1_middle1">
+						<a href="" class="floor6_middle_text fl">新奇酷玩</a>
+						<a href="" class="floor6_middle_text fl">热卖手机</a>
+						<a href="" class="floor6_middle_text fl">平板大促</a>
+						<a href="" class="floor6_middle_text fl">华为荣耀</a>
+						<a href="" class="floor6_middle_text fl">天猫分期</a>
+						<a href="" class="floor6_middle_text fl">小米特供</a>
+						<a href="" class="floor6_middle_text fl">校园分期</a>
+						<a href="" class="floor6_middle_text fl">魅族手机</a>
+						<a href="" class="floor6_middle_text fl">新品首发</a>
+						<a href="" class="floor6_middle_text fl">酷派大神</a>
+						<a href="" class="floor6_middle_text fl">时尚影音</a>
+						<a href="" class="floor6_middle_text fl">iPhone惠</a>
+					</div>
+					<div class="floor_line1_bottom2">
+						<span class="beauty">天猫电器城服务保障</span>
+						<a href="" class="beauty_box">
+							<b class="shunfeng bg1 fl"></b>
+							<span class="beauty_text fl">顺丰包邮</span>
+						</a>
+						<a href="" class="xing_box">
+							<b class="lian bg1 fl"></b>
+							<span class="beauty_text fl">全国联保</span>
+						</a>
+						<a href="" class="saoma_box">
+							<b class="tuihuan bg1 fl"></b>
+							<span class="beauty_text fl">无忧退换货</span>
+						</a>
+					</div>
+				</div>
+				<div class="floor_line2 fl">
+					<div class="big_adv_box">
+						<img src="../img/line2.jpg" width="399" height="422"/>
+						<span class="trans"></span>
+						<span class="big_adv_box_content">
+							<span class="row_top_text">低价开抢</span>
+							<span class="row"></span>
+							<span class="row_bottom_text">国际开仓日</span>
+						</span>
+					</div>
+					<a href="" class="big_adv"></a>
+				</div>
+				<div class="floor_line3 fl">
+					<ul class="floor_line3_top fl">
+						<li class="brand_detail fl">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic15.jpg">
+							</a>
+						</li>
+						<li class="brand_detail fl">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic16.jpg">
+							</a>
+						</li>
+						<li class="brand_detail fl br0">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic17.jpg">
+							</a>
+						</li>
+					</ul>
+					<ul class="floor_line3_bottom fl">
+						<li class="small_detail fl">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+						<li class="small_detail fl">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+						<li class="small_detail fl br0">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="underfloor_adv">
+				<a href="" class="underfloor6_adv">
+					<img src="../img/underfloor6_adv.jpg" />
+				</a>
+			</div>
+			<!--floor7-->
+			<div class="floor">
+				<div class="floor_line1 fl">
+					<div class="floor_line1_top7 bg1">
+						<a href="" class="floor_line1_top_left6 fl">
+							<s class="adv_left7 bg1 fl"></s>
+							<span class="adv_text6 fl">家用电器</span>
+						</a>
+					</div>
+					<div class="floor_line1_middle1">
+						<a href="" class="floor6_middle_text fl">空净特卖</a>
+						<a href="" class="floor6_middle_text fl">绝对值</a>
+						<a href="" class="floor6_middle_text fl">智能电视</a>
+						<a href="" class="floor6_middle_text fl">厨卫家装</a>
+						<a href="" class="floor6_middle_text fl">精品家电</a>
+						<a href="" class="floor6_middle_text fl">健康保健</a>
+						<a href="" class="floor6_middle_text fl">电视特惠</a>
+						<a href="" class="floor6_middle_text fl">家电大牌</a>
+						<a href="" class="floor6_middle_text fl">健康生活</a>
+						<a href="" class="floor6_middle_text fl">空调特惠</a>
+						<a href="" class="floor6_middle_text fl">家电套购</a>
+						<a href="" class="floor6_middle_text fl">家居清洁</a>
+					</div>
+					<div class="floor_line1_bottom2">
+						<span class="beauty">天猫电器城服务保障</span>
+						<a href="" class="beauty_box">
+							<b class="songhuo bg1 fl"></b>
+							<span class="beauty_text fl">送货入户</span>
+						</a>
+						<a href="" class="xing_box">
+							<b class="lian1 bg1 fl"></b>
+							<span class="beauty_text fl">全国联保</span>
+						</a>
+						<a href="" class="saoma_box">
+							<b class="tuihuan1 bg1 fl"></b>
+							<span class="beauty_text fl">无忧退换货</span>
+						</a>
+					</div>
+				</div>
+				<div class="floor_line2 fl">
+					<div class="big_adv_box">
+						<img src="../img/line2.jpg" width="399" height="422"/>
+						<span class="trans"></span>
+						<span class="big_adv_box_content">
+							<span class="row_top_text">低价开抢</span>
+							<span class="row"></span>
+							<span class="row_bottom_text">国际开仓日</span>
+						</span>
+					</div>
+					<a href="" class="big_adv"></a>
+				</div>
+				<div class="floor_line3 fl">
+					<ul class="floor_line3_top fl">
+						<li class="brand_detail fl">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic18.jpg">
+							</a>
+						</li>
+						<li class="brand_detail fl">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic19.jpg">
+							</a>
+						</li>
+						<li class="brand_detail fl br0">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic20.jpg">
+							</a>
+						</li>
+					</ul>
+					<ul class="floor_line3_bottom fl">
+						<li class="small_detail fl">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+						<li class="small_detail fl">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+						<li class="small_detail fl br0">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--floor8-->
+			<div class="floor">
+				<div class="floor_line1 fl">
+					<div class="floor_line1_top8 bg1">
+						<a href="" class="floor_line1_top_left8 fl">
+							<s class="adv_left8 bg1"></s>
+							<span class="adv_text8">母婴/玩具/童装</span>
+						</a>
+					</div>
+					<div class="floor_line1_middle">
+						<a href="" class="left_page bg1 fl"></a>
+						<div class="change_brand fl pl14 pt15">
+							<a href="" class="middle fl mb18">
+								<img src="../img/middle1.jpg">
+							</a>
+							<a href="" class="middle fl mb10">
+								<img src="../img/middle2.jpg">
+							</a>
+							<a href="" class="middle fl">
+								<img src="../img/middle3.jpg">
+							</a>
+						</div>
+						<a href="" class="right_page bg1 fl"></a>
+					</div>
+					<div class="floor_line1_bottom">
+						<a href="" class="detail">9元包邮</a>
+						<a href="" class="detail">运动鞋</a>
+						<a href="" class="detail">大牌尿裤</a>
+						<a href="" class="detail">孕妈秋装</a>
+						<a href="" class="detail">益智玩具</a>
+						<a href="" class="detail">儿童餐椅</a>
+						<a href="" class="detail">家居服</a>
+						<a href="" class="detail">大牌奶粉</a>
+					</div>
+				</div>
+				<div class="floor_line2 fl">
+					<div class="big_adv_box">
+						<img src="../img/line2.jpg" width="399" height="422"/>
+						<span class="trans"></span>
+						<span class="big_adv_box_content">
+							<span class="row_top_text">低价开抢</span>
+							<span class="row"></span>
+							<span class="row_bottom_text">国际开仓日</span>
+						</span>
+					</div>
+					<a href="" class="big_adv"></a>
+				</div>
+				<div class="floor_line3 fl">
+					<ul class="floor_line3_top fl">
+						<li class="brand_detail fl">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic21.jpg">
+							</a>
+						</li>
+						<li class="brand_detail fl">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic22.jpg">
+							</a>
+						</li>
+						<li class="brand_detail fl br0">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic23.jpg">
+							</a>
+						</li>
+					</ul>
+					<ul class="floor_line3_bottom fl">
+						<li class="small_detail fl">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+						<li class="small_detail fl">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+						<li class="small_detail fl br0">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--floor9-->
+			<div class="floor">
+				<div class="floor_line1 fl">
+					<div class="floor_line1_top9 bg1">
+						<a href="" class="floor_line1_top_left8 fl">
+							<s class="adv_left9 bg1"></s>
+							<span class="adv_text8">食品</span>
+						</a>
+					</div>
+					<div class="floor_line1_middle1">
+						<a href="" class="floor6_middle_text fl">零食</a>
+						<a href="" class="floor6_middle_text fl">坚果</a>
+						<a href="" class="floor6_middle_text fl">进口食品</a>
+						<a href="" class="floor6_middle_text fl">红酒</a>
+						<a href="" class="floor6_middle_text fl">白酒</a>
+						<a href="" class="floor6_middle_text fl">啤酒</a>
+						<a href="" class="floor6_middle_text fl">花茶</a>
+						<a href="" class="floor6_middle_text fl">饮料</a>
+						<a href="" class="floor6_middle_text fl">冲调</a>
+						<a href="" class="floor6_middle_text fl">牛奶</a>
+						<a href="" class="floor6_middle_text fl">粮油</a>
+						<a href="" class="floor6_middle_text fl">生鲜</a>
+					</div>
+					<div class="floor_line1_bottom">
+						<a href="" class="detail">喵鲜生</a>
+						<a href="" class="detail">免费试吃</a>
+						<a href="" class="detail">巧克力</a>
+						<a href="" class="detail">冰淇淋</a>
+						<a href="" class="detail">碧根果</a>
+						<a href="" class="detail">龙虾</a>
+						<a href="" class="detail">大红袍</a>
+						<a href="" class="detail">自助餐</a>
+					</div>
+				</div>
+				<div class="floor_line2 fl">
+					<div class="big_adv_box">
+						<img src="../img/line2.jpg" width="399" height="422"/>
+						<span class="trans"></span>
+						<span class="big_adv_box_content">
+							<span class="row_top_text">低价开抢</span>
+							<span class="row"></span>
+							<span class="row_bottom_text">国际开仓日</span>
+						</span>
+					</div>
+					<a href="" class="big_adv"></a>
+				</div>
+				<div class="floor_line3 fl">
+					<ul class="floor_line3_top fl">
+						<li class="brand_detail fl">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic24.jpg">
+							</a>
+						</li>
+						<li class="brand_detail fl">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic25.jpg">
+							</a>
+						</li>
+						<li class="brand_detail fl br0">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic26.jpg">
+							</a>
+						</li>
+					</ul>
+					<ul class="floor_line3_bottom fl">
+						<li class="small_detail fl">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+						<li class="small_detail fl">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+						<li class="small_detail fl br0">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="underfloor_adv">
+				<a href="" class="underfloor9_adv">
+					<img src="../img/underfloor9_adv.jpg" />
+				</a>
+			</div>
+			<!--floor10-->
+			<div class="floor">
+				<div class="floor_line1 fl">
+					<div class="floor_line1_top10 bg1">
+						<a href="" class="floor_line1_top_left8 fl">
+							<s class="adv_left10 bg1"></s>
+							<span class="adv_text8">图书</span>
+						</a>
+					</div>
+					<div class="floor_line1_middle1">
+						<a href="" class="floor6_middle_text fl">小说</a>
+						<a href="" class="floor6_middle_text fl">科幻</a>
+						<a href="" class="floor6_middle_text fl">文学</a>
+						<a href="" class="floor6_middle_text fl">动漫</a>
+						<a href="" class="floor6_middle_text fl">传记</a>
+						<a href="" class="floor6_middle_text fl">童书</a>
+						<a href="" class="floor6_middle_text fl">言情</a>
+						<a href="" class="floor6_middle_text fl">育儿</a>
+						<a href="" class="floor6_middle_text fl">悬疑</a>
+						<a href="" class="floor6_middle_text fl">绘本</a>
+						<a href="" class="floor6_middle_text fl">历史</a>
+						<a href="" class="floor6_middle_text fl">孕期</a>
+					</div>
+					<div class="floor_line1_bottom">
+						<a href="" class="detail">美食</a>
+						<a href="" class="detail">职场</a>
+						<a href="" class="detail">旅行</a>
+						<a href="" class="detail">管理</a>
+						<a href="" class="detail">生活</a>
+						<a href="" class="detail">考试</a>
+						<a href="" class="detail">社科</a>
+						<a href="" class="detail">音像</a>
+					</div>
+				</div>
+				<div class="floor_line2 fl">
+					<div class="big_adv_box">
+						<img src="../img/line2.jpg" width="399" height="422"/>
+						<span class="trans"></span>
+						<span class="big_adv_box_content">
+							<span class="row_top_text">低价开抢</span>
+							<span class="row"></span>
+							<span class="row_bottom_text">国际开仓日</span>
+						</span>
+					</div>
+					<a href="" class="big_adv"></a>
+				</div>
+				<div class="floor_line3 fl">
+					<ul class="floor_line3_top fl">
+						<li class="brand_detail fl">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic27.jpg">
+							</a>
+						</li>
+						<li class="brand_detail fl">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic28.jpg">
+							</a>
+						</li>
+						<li class="brand_detail fl br0">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic29.jpg">
+							</a>
+						</li>
+					</ul>
+					<ul class="floor_line3_bottom fl">
+						<li class="small_detail fl">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+						<li class="small_detail fl">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+						<li class="small_detail fl br0">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--floor11-->
+			<div class="floor">
+				<div class="floor_line1 fl">
+					<div class="floor_line1_top11 bg1">
+						<a href="" class="floor_line1_top_left8 fl">
+							<s class="adv_left11 bg1"></s>
+							<span class="adv_text8">家装家纺</span>
+						</a>
+					</div>
+					<div class="floor_line1_middle1">
+						<a href="" class="floor6_middle_text fl">家具风暴</a>
+						<a href="" class="floor6_middle_text fl">品质建材</a>
+						<a href="" class="floor6_middle_text fl">实体店</a>
+						<a href="" class="floor6_middle_text fl">风尚家具</a>
+						<a href="" class="floor6_middle_text fl">全屋定制</a>
+						<a href="" class="floor6_middle_text fl">装修设计</a>
+						<a href="" class="floor6_middle_text fl">四件套</a>
+						<a href="" class="floor6_middle_text fl">蚕丝被</a>
+						<a href="" class="floor6_middle_text fl">保健枕</a>
+						<a href="" class="floor6_middle_text fl">装饰摆件</a>
+						<a href="" class="floor6_middle_text fl">珠宝配饰</a>
+						<a href="" class="floor6_middle_text fl">照片墙</a>
+					</div>
+					<div class="floor_line1_bottom2">
+						<span class="beauty mb0">天猫家装服务保障</span>
+						<a href="" class="beauty_box mb3">
+							<b class="pei bg1 fl"></b>
+							<span class="beauty_text fl">假一赔五</span>
+						</a>
+						<a href="" class="xing_box mb3">
+							<b class="ruhu bg1 fl"></b>
+							<span class="beauty_text fl">送货入户</span>
+						</a>
+						<a href="" class="saoma_box mb3">
+							<b class="anzhuang bg1 fl"></b>
+							<span class="beauty_text fl">无忧安装</span>
+						</a>
+						<a href="" class="saoma_box mb3">
+							<b class="zhibao bg1 fl"></b>
+							<span class="beauty_text fl">三年质保</span>
+						</a>
+					</div>
+				</div>
+				<div class="floor_line2 fl">
+					<div class="big_adv_box">
+						<img src="../img/line2.jpg" width="399" height="422"/>
+						<span class="trans"></span>
+						<span class="big_adv_box_content">
+							<span class="row_top_text">低价开抢</span>
+							<span class="row"></span>
+							<span class="row_bottom_text">国际开仓日</span>
+						</span>
+					</div>
+					<a href="" class="big_adv"></a>
+				</div>
+				<div class="floor_line3 fl">
+					<ul class="floor_line3_top fl">
+						<li class="brand_detail fl">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic30.jpg">
+							</a>
+						</li>
+						<li class="brand_detail fl">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic31.jpg">
+							</a>
+						</li>
+						<li class="brand_detail fl br0">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic32.jpg">
+							</a>
+						</li>
+					</ul>
+					<ul class="floor_line3_bottom fl">
+						<li class="small_detail fl">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+						<li class="small_detail fl">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+						<li class="small_detail fl br0">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--floor12-->
+			<div class="floor">
+				<div class="floor_line1 fl">
+					<div class="floor_line1_top12 bg1">
+						<a href="" class="floor_line1_top_left8 fl">
+							<s class="adv_left12 bg1"></s>
+							<span class="adv_text8">超市</span>
+						</a>
+					</div>
+					<div class="floor_line1_middle1">
+						<a href="" class="floor6_middle_text fl">纸降5折</a>
+						<a href="" class="floor6_middle_text fl">洗护口腔</a>
+						<a href="" class="floor6_middle_text fl">清洁达人</a>
+						<a href="" class="floor6_middle_text fl">均价家居</a>
+						<a href="" class="floor6_middle_text fl">母婴清仓</a>
+						<a href="" class="floor6_middle_text fl">饼干糕点</a>
+						<a href="" class="floor6_middle_text fl">进口零食</a>
+						<a href="" class="floor6_middle_text fl">进口泡面</a>
+						<a href="" class="floor6_middle_text fl">方便速食</a>
+						<a href="" class="floor6_middle_text fl">酱菜热卖</a>
+						<a href="" class="floor6_middle_text fl">饮料啤酒</a>
+						<a href="" class="floor6_middle_text fl">生鲜水果</a>
+					</div>
+					<div class="floor_line1_bottom2">
+						<span class="beauty mb17">天猫超市服务保障</span>
+						<a href="" class="beauty_box mb7">
+							<b class="yi bg1 fl"></b>
+							<span class="beauty_text fl">一站式购齐</span>
+						</a>
+						<a href="" class="xing_box mb7">
+							<b class="man88 bg1 fl"></b>
+							<span class="beauty_text fl">满88包邮</span>
+						</a>
+					</div>
+				</div>
+				<div class="floor_line2 fl">
+					<div class="big_adv_box">
+						<img src="../img/line2.jpg" width="399" height="422"/>
+						<span class="trans"></span>
+						<span class="big_adv_box_content">
+							<span class="row_top_text">低价开抢</span>
+							<span class="row"></span>
+							<span class="row_bottom_text">国际开仓日</span>
+						</span>
+					</div>
+					<a href="" class="big_adv"></a>
+				</div>
+				<div class="floor_line3 fl">
+					<ul class="floor_line3_top fl">
+						<li class="brand_detail fl">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic33.jpg">
+							</a>
+						</li>
+						<li class="brand_detail fl">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic34.jpg">
+							</a>
+						</li>
+						<li class="brand_detail fl br0">
+							<a href="" class="brand_name fl">国际时尚风向标</a>
+							<span class="brand_script fl">女装大牌秋冬联合发布</span>
+							<a href="" class="brandpic fl">
+								<img src="../img/brandpic35.jpg">
+							</a>
+						</li>
+					</ul>
+					<ul class="floor_line3_bottom fl">
+						<li class="small_detail fl">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+						<li class="small_detail fl">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+						<li class="small_detail fl br0">
+							<a href="" class="brand_name fl">文艺复古女装品牌联合</a>
+							<span class="brand_script fl">恬适安静 慢想生活</span>
+							<a href="" class="brandpic1 fl">
+								<img src="../img/smallbrand.jpg">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="underfloor_adv">
+				<a href="" class="underfloor12_adv">
+					<img src="../img/underfloor12_adv.jpg" />
+				</a>
+			</div>
+		</div>
+		<!--底部部分-->
+		<footer class="footer">
+			<div class="footer_top">
+				<div class="footer_top_width">
+					<div class="special">
+						<a href="" class="special1 fl">
+							<img src="../img/you.jpg" />
+						</a>
+						<a href="" class="special2 fl">
+							<img src="../img/qi.jpg" />
+						</a>
+						<a href="" class="special3 fl">
+							<img src="../img/te.jpg" />
+						</a>
+						<a href="" class="special4 fl">
+							<img src="../img/help.jpg" />
+						</a>
+					</div>
+					<div class="guide">
+						<div class="shopping_guide fl">
+							<a href="" class="shopping_guide_title">购物指南</a>
+							<a href="" class="shopping_guide_content">免费注册</a>
+							<a href="" class="shopping_guide_content">开通支付宝</a>
+							<a href="" class="shopping_guide_content">支付宝充值</a>
+						</div>
+						<div class="tmall_safeguard fl">
+							<a href="" class="shopping_guide_title">天猫保障</a>
+							<a href="" class="shopping_guide_content">发票保障</a>
+							<a href="" class="shopping_guide_content">售后规则</a>
+							<a href="" class="shopping_guide_content">缺货赔付</a>
+						</div>
+						<div class="pay_method fl ">
+							<a href="" class="shopping_guide_title">支付方式</a>
+							<a href="" class="shopping_guide_content">快捷支付</a>
+							<a href="" class="shopping_guide_content">信用卡</a>
+							<a href="" class="shopping_guide_content">余额宝</a>
+							<a href="" class="shopping_guide_content">蚂蚁花呗</a>
+							<a href="" class="shopping_guide_content">货到付款</a>
+						</div>
+						<div class="merchant_serve fl">
+							<a href="" class="shopping_guide_title">商家服务</a>
+							<a href="" class="shopping_guide_content">商家入驻</a>
+							<a href="" class="shopping_guide_content">商家中心</a>
+							<a href="" class="shopping_guide_content">天猫智库</a>
+							<a href="" class="shopping_guide_content">天猫规则</a>
+							<a href="" class="shopping_guide_content">物流服务</a>
+							<a href="" class="shopping_guide_content">喵言喵语</a>
+							<a href="" class="shopping_guide_content">运营服务</a>
+						</div>
+						<div class="tmall_phone fl">
+							<a href="" class="shopping_guide_title">手机天猫</a>
+							<a href="" class="two_dimensioncode">
+								<img src="../img/two_dimensioncode.jpg">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer_bottom">
+				<div class="footer_bottom_width">
+					<div class="about">
+						<a href="" class="about_text">关于天猫</a>
+						<a href="" class="about_text">帮助中心</a>
+						<a href="" class="about_text">开放平台</a>
+						<a href="" class="about_text">诚聘英才</a>
+						<a href="" class="about_text">联系我们</a>
+						<a href="" class="about_text">网站合作</a>
+						<a href="" class="about_text">法律声明</a>
+						<a href="" class="about_text">廉正举报</a>
+						<a href="" class="about_text">规则意见征集</a>
+					</div>
+					<div class="linkweb">
+						<a href="" class="linkweb_text">阿里巴巴集团</a>
+						<span class="line1"></span>
+						<a href="" class="linkweb_text">淘宝网</a>
+						<span class="line1"></span>
+						<a href="" class="linkweb_text">天猫</a>
+						<span class="line1"></span>
+						<a href="" class="linkweb_text">聚划算</a>
+						<span class="line1"></span>
+						<a href="" class="linkweb_text">全球速卖通</a>
+						<span class="line1"></span>
+						<a href="" class="linkweb_text">阿里巴巴国际交易市场</a>
+						<span class="line1"></span>
+						<a href="" class="linkweb_text">1688</a>
+						<span class="line1"></span>
+						<a href="" class="linkweb_text">阿里妈妈</a>
+						<span class="line1"></span>
+						<a href="" class="linkweb_text">阿里旅行·去啊</a>
+						<span class="line1"></span>
+						<a href="" class="linkweb_text">阿里云计算</a>
+						<span class="line1"></span>
+						<a href="" class="linkweb_text">YunOS</a>
+						<span class="line1"></span>
+						<a href="" class="linkweb_text">阿里通信</a>
+						<span class="line1"></span>
+						<a href="" class="linkweb_text">万网</a>
+						<span class="line1"></span>
+						<a href="" class="linkweb_text">高德</a>
+						<span class="line1"></span>
+						<a href="" class="linkweb_text">优视</a>
+						<span class="line1"></span>
+						<a href="" class="linkweb_text">友盟</a>
+						<span class="line1"></span>
+						<a href="" class="linkweb_text">虾米</a>
+						<span class="line1"></span>
+						<a href="" class="linkweb_text">天天动听</a>
+						<span class="line1"></span>
+						<a href="" class="linkweb_text">来往</a>
+						<span class="line1"></span>
+						<a href="" class="linkweb_text">钉钉</a>
+						<span class="line1"></span>
+						<a href="" class="linkweb_text">支付宝</a>
+					</div>
+					<div class="copyright">
+						<span class="copyright_text">增值电信业务经营许可证：<a href="">浙B2-20110446</a></span>
+						<span class="copyright_text">网络文化经营许可证：<a href="">浙网文[2015]0295-065号</a></span>
+						<span class="copyright_text">互联网医疗保健信息服务 审核同意书 浙卫网审【2014】6号</span>
+						<span class="copyright_text d_block">互联网药品信息服务资质证书编号：浙-（经营性）-2012-0005</span>
+						<span class="copyright_text d_block">© 2003-2015 TMALL.COM 版权所有</span>
+					</div>
+					<div class="copyright_pic">
+						<a href="" class="copy1 fl">
+							<img src="../img/copy1.jpg">
+						</a>
+						<a href="" class="copy2 fl">
+							<img src="../img/copy2.jpg">
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

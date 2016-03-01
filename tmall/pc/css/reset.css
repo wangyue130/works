@@ -1,0 +1,25 @@
+body,h4,h1{
+	margin:0px;
+}
+img{
+	border: none;
+	vertical-align:top;
+}
+ul{
+	margin: 0px;
+	list-style: none;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+input{
+	margin: 0px;
+	padding: 0px;
+}
+b{
+	font-weight: normal;
+}
+i{
+	font-style: normal;
+}

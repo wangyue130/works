@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	<style>
+  		.red{background: red;width:200px;height:200px;}
+  		.blue{background: blue;width:300px;height:300px;}
+    </style>
+	</head>
+	<body>
+		<input type="button" value="切换图片" id="btn" >
+		<img src="japan.jpg" id="Img" />
+		<p id="cool" style="padding-left: 200px;">美女</p>
+		<input type="button" value="发送" id="addClass" />
+		<div id="oDiv" ><!-- <p class="red">123</p> --></div>
+		<script>
+			var Obtn=document.getElementById('btn');
+			var OImg=document.getElementById('Img');
+			var OCool=document.getElementById('cool');
+			var OAddClass=document.getElementById('addClass')
+			var ODiv=document.getElementById('oDiv');
+			var Onoff=true;		//声明一个开关；
+			Obtn.onclick=function(){
+				if(Onoff){					
+					OImg.src="japan.png";	//当Onoff为true时，图片的src为japan.png；并且在切换到japan.png的时候Onoff的值为false;
+					Onoff=false;
+					OCool.innerHTML="<p>帅哥</p>";//当Onoff为true时，把p标签里的内容赋值给OCool.innerHTML;
+				}else{
+					OImg.src="japan.jpg";//当Onoff为false时，图片的src为japan.jpg；并且在切换到japan.png的时候Onoff的值为true;
+					Onoff=true;
+					OCool.innerHTML="<p>美女</p>";//当Onoff为false时，把p标签里的内容赋值给OCool.innerHTML;
+				};			
+			}
+			OAddClass.onclick=function(){
+				if(Onoff){
+					ODiv.innerHTML="<p class='red'>对应美女</p>";//当Onoff为true时，ODiv的内容为p标签里面的:对应美女；
+				}else{
+					ODiv.innerHTML="<p class='blue'>对应帅哥</p>";//当Onoff为false时，ODiv的内容为p标签里面的内容:对应帅哥；
+				}	
+			}
+		</script>
+	</body>
+</html>

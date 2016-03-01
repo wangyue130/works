@@ -1,0 +1,29 @@
+h1,h2,h3,h4{
+	margin: 0;
+}
+body{
+	margin: 0px;
+}
+a{
+	-webkit-tap-highlight-color:transparent;
+	input {-webkit-appearance:none;}
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+form,input{
+	padding: 0px;
+	margin: 0px;
+	border: 0;
+}
+img{
+	border: none;
+	vertical-align: top;
+}
+ul{
+	margin: 0;
+	padding: 0px;
+	list-style: none;
+}
+

@@ -1,0 +1,59 @@
+.clearfix{
+	*zoom:1;
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+body{
+	font-size:12px;
+	color:#3c3c3c;
+}
+.mr4{
+	margin-right:4px;
+}
+.mr7{
+	margin-right:7px;
+}
+.mr19{
+	margin-right:19px;
+}
+.mr15{
+	margin-right:15px;
+}
+.mt20{
+	margin-top: 20px;
+}
+.bg{
+	background-image: url(../img/bg.png);
+	background-repeat: no-repeat;
+}
+.colorset{
+	color:#FF4400;
+}
+strong{
+	white-space: nowrap;
+}
+.color014305{
+	color:#014305;
+}
+.colorff2900{
+	color: #ff2900;
+}
+.color999999{
+	color: #999999;
+}
+.color000000{
+	color:000;
+}
+.color3366cc{
+	color:#3366cc;
+}
+

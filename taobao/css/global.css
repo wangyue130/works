@@ -1,0 +1,198 @@
+/*头部*/
+.head_box{
+	height:32px;
+	border-bottom:1px solid #eeeeee;
+	background-color:#f5f5f5;
+	padding-top:3px;
+}
+.head_box .head_content{
+	width:1184px;
+	height:32px;
+	padding-left:6px;
+	margin:0 auto;
+	line-height: 32px;
+}
+.head_content a{
+	color:#6c6c6c;
+}
+.head_content .left_head{
+	height:32px;
+	font-size:0;
+}
+.left_head a{
+	font-size: 12px;
+}
+.head_content .color_red{
+	color:#f22e00;
+}
+.right_head .my_taobao,.right_head .shopbar,.right_head .favorites,.right_head .seller_center{
+	margin-right:15px;
+}
+.right_head a .list_icon{
+	width:7px;
+	height:3px;
+	background-position: 0 -24px;
+	margin:13px 0 0 9px;
+}
+.right_head .shopbar .list_icon{
+	width:7px;
+	height:3px;
+	background-position: 0 -27px;
+	margin:13px 0 0 9px;
+}
+.right_head .website_nav .list_icon{
+	width:7px;
+	height:3px;
+	background-position: 0 -27px;
+	margin:13px 0 0 9px;
+}
+.shopbar_icon .icon{
+	width:11px;
+	height:12px;
+	background-position: 0 0;
+	margin-right:6px;
+	margin-top:8px;
+}
+.favorites_icon .icon{
+	width:11px;
+	height:11px;
+	background-position: 0 -12px;
+	margin-right:6px;
+	margin-top:8px;
+}
+.product_item .line{
+	width:1px;
+	height:12px;
+	background-color: #e4dde4;
+	margin:10px 13px 0 20px;
+}
+.right_head .contact{
+	margin-right:8px;
+}
+.right_head .website_nav{
+	margin-right: 9px;
+}
+.website_nav_icon .icon{
+	width:7px;
+	height:7px;
+	background-position: 0 -31px;
+	margin:11px 8px 0 0;
+}
+/*底部*/
+.foot{
+	width:1190px;
+	margin:47px auto 0;
+}
+.foot .guide{
+	width:1190px;
+	height:95px;
+	padding-bottom: 45px;
+	border-bottom: 2px solid #ff5400;
+}
+.guide .guide_list{
+	width:272px;
+	height:88px;
+	padding:7px 0 0 24px;
+	border-right:1px solid #eeeeee;
+}
+.guide .noborderr{
+	border-right: none;
+}
+.guide_list .guide_head{
+	height:34px;
+}
+.guide_head .guide_bgicon{
+	width:33px;
+	height:34px;
+	margin-right: 13px;
+}
+.guide_head .bgiconx{
+	background-position: -151px -210px;
+}
+.guide_head .bgiconnew{
+	background-position: -151px -244px;
+}
+.guide_head .bgiconpay{
+	background-position: -151px -278px;
+}
+.guide_head .bgiconte{
+	background-position: -151px -312px;
+}
+.guide_head h3{
+	line-height: 34px;
+	font-size: 16px;
+}
+.guide_list .guide_content{
+	height:42px;
+	padding-top:12px;
+	
+}
+.guide_content a{
+	color:#9c9c9c;
+	margin-right: 14px;
+}
+.guide_content .gc_top{
+	height:22px;
+	line-height: 22px;
+}
+.guide_content .gc_bm{
+	height:20px;
+	line-height: 20px;
+}
+.foot .linktype{
+	width:1186px;
+	height:54px;
+	line-height: 27px;
+	padding:8px 0 7px 4px;
+	border-top:1px solid #dddddd;
+	border-bottom:1px solid #dddddd;
+}
+.linktype a{
+	color:#6c6c6c;
+}
+.linktype .line{
+	width:1px;
+	height:12px;
+	background-color: #e7dde7;
+	margin:7px 9px 0 9px;
+}
+.foot .copyright{
+	width:789px;
+	height:34px;
+	line-height: 34px;
+	padding-left:4px;
+}
+.copyright a{
+	margin-right: 8px;
+	color:#6c6c6c;
+}
+.copyright .right_copyr{
+	color:#9c9c9c;
+}
+.right_copyr .fontfaset{
+	font-family: arial;
+}
+.foot .permit{
+	width:802px;
+	height:36px;
+	padding-left:4px;
+	line-height: 18px;
+	color:#9c9c9c;
+	font-family: arial;
+}
+.permit a{
+	color:#6c6c6c;
+}
+.permit .line{
+	width:1px;
+	height:12px;
+	background-color: #e7dde7;
+	margin:3px 9px 0 13px;
+}
+.foot .footpic{
+	height:39px;
+	margin-top:8px;
+}
+.footpic a{
+	margin-right: 15px;
+}

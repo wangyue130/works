@@ -1,0 +1,48 @@
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+body{
+	font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+.bg1{
+	background-image: url(../img/xuebitu.png);
+	background-repeat: no-repeat;
+}
+.bg2{
+	background-image: url(../img_searchlist/bg2.png);
+	background-repeat: no-repeat;
+}
+.wh20{
+	width: 20px;
+	height: 20px;
+	background-color: #FFFFFF;
+}
+.mb3{
+	margin-bottom: 3px;
+}
+.mb0{
+	margin-bottom: 0px;
+}
+.mb17{
+	margin-bottom: 17px;
+}
+.mb7{
+	margin-bottom: 7px;
+}
+.mr6{
+	margin-right: 6px;
+}
+.mr0{
+	margin-right: 0px;
+}
+.fontsize0{
+	font-size: 0;
+}

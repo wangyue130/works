@@ -1,0 +1,153 @@
+header{
+	height: 73px;
+}
+.wrap{
+	width:1200px;
+	margin:0 auto;
+	position: relative;
+}
+.ico{
+	background:url(../img/bg_1.png);
+	background-repeat: no-repeat;
+}
+.logo{
+	width:130px;
+	height: 0px;
+	padding-top:73px;
+	overflow: hidden;
+	background-position: 0 0;
+}
+.ss{
+	
+	width:130px;
+	height: 73px;
+	position: absolute;
+	top:0;
+	left: 0;
+	
+}
+.head_nav{
+	width:1070px;
+}
+.nav_top{
+	height: 21px;
+	padding-top:7px;
+	background:#fff;
+	font-size: 0;
+	text-align: right;
+}
+.nav_top a{
+	display: inline-block;
+	line-height: 13px;
+}
+.nav_top .line{		
+	display: inline-block;
+	border:1px solid #dddddd;
+	height: 12px;
+	*overflow: hidden;
+	vertical-align: -4px;
+	margin:0 10px 0 8px;
+	
+}
+.nav_top a,span{
+	display: inline-block;
+	font-size: 12px;
+}
+.nav_top span{
+	color: #5d005d;
+}
+.nav_top .online{
+	color: #0084bb;
+}
+.nav_top a{
+	color: #666666;
+}
+.nav_top .mail{
+	display: inline-block;
+	width:10px;
+	height: 8px;
+	background-position: -130px -17px;
+	vertical-align: 0px;
+	margin:0 5px 0 1px;
+}
+.nav_top .mails{
+	display: inline-block;
+	width:8px;
+	height: 9px;
+	background-position: -130px -25px;
+	vertical-align: 2px;
+	margin-left: 4px;
+}
+.nav_top .jack{
+	display: inline-block;
+	width:19px;
+	height: 13px;
+	background-position: -177px 0px;
+	vertical-align: -2px;
+	margin:0 6px 0 7px;
+}
+.nav{
+	height: 32px;
+	padding-top:13px;
+}
+.nav_left{
+	font-size: 0;
+	height: 32px;
+	line-height: 32px;
+}
+.nav_left a{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	color: #3c3c3c;
+	margin-right: 20px;
+}
+.nav_left .men{
+	position: relative;
+}
+.nav_left .che{
+	position: relative;
+}
+.nav_left .col{
+	color: #00a4cc;
+	margin-left: 16px;
+}
+.sro{
+	display: block;
+	width:47px;
+	height: 17px;
+	background-position:-130px 0 ;
+	*overflow: hidden;
+	position: absolute;
+	top:-9px;
+	left:-8px;
+}
+.sroll2{
+	display: block;
+	width:47px;
+	height: 17px;
+	background-position:-196px -33px ;
+	*overflow: hidden;
+	position: absolute;
+	top:-9px;
+	left:-8px;
+}
+.nav_right{
+	height: 32px;
+	*overflow: hidden;
+}
+.nav_right .nav_text{
+	display: inline-block;
+	color: #f29d29;
+	font-size: 20px;
+	margin-right: 58px;
+}
+.nav_right .pic{
+	display: inline-block;
+	width:60px;
+	height: 32px;
+	background-position: -196px 0;
+	position: absolute;
+	top:41px;
+	right: 0;	
+}

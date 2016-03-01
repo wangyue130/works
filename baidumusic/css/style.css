@@ -1,0 +1,462 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,p,ul,ol,input,form,dl,dd{margin:0;padding:0;font-size:12px;font-family:Arial,"宋体";}
+li{list-style:none;}
+a{text-decoration:none;}
+img{border:none;vertical-align:top;}
+strong{font-weight:normal;}
+.clearFix{zoom:1;}
+.clearFix:after{content:"";display:block;clear:both;}
+.header{width:100%;}
+.header .TopHeader{float:right;height:14px;margin:9px 5px 0 0;color:#999999;position:relative;display:inline;}
+.TopHeader a{padding:0 5px;color:#2d64b3;}
+.first,.music,.sept,.register{text-decoration:underline;dispaly:inline-block;}
+.TopHeader .advise{padding-left:19px;position:relative;}
+.advise .pen{width:14px;height:14px;position:absolute;left:5px;top:1px;background:url(../img/sprit.gif) no-repeat;background-position:0 0;}
+.TopHeader .music{padding-right:22px;width:7px;height:4px;background:url(../img/baidu-.gif) no-repeat 51px 4px;}
+.TopHeader .register{padding-left:1px;}
+.TopHeader .special{width:90px;height:75px;border:1px solid #999999;position:absolute;left:135px;top:16px;background:#fff;}
+.special li{width:90px;height:24px;border-bottom:1px solid #ebebeb;text-indent:7px;line-height:22px;position:relative;}
+.special a{color:#2d64b3;}
+.special a:hover{background:url(../img/baidu---.gif) no-repeat;position:absolute;left:0;top:0;height:24px;width:90px;}
+.special #imdiently{color:#cc3333;}
+.special li .hot{width:19px;height:13px;position:absolute;left:61px;top:2px;background:url(../img/sprit.gif) no-repeat;background-position:-14px 0;}
+/* --顶部导航---------------------------------------------------------------------------- */
+.BaiduMusic{float:left;width:713px;height:66px;color:#999999;margin-top:17px;margin-left:65px;display:inline; position:relative;}
+.BaiduMusic .news{font-size:14px;height:30px;line-height:30px;margin-left:153px;}
+.news a{color:#555555;padding-right:22px;}
+.news #MS{color:#333333;font-weight:bold;}
+.search h1{float:left;width:137px;height:0;position:absolute;left:0;top:14px;background:url(../img/sprit.gif) no-repeat;background-position:-33px 0;padding-top:44px;overflow:hidden; }
+.search .user{float:right;margin-left:16px;height:34px;position:relative;display:inline;width:560px;}
+.user .type{width:459px;height:32px;line-height:32px;text-indent:7px;font-size:14px;color:#999999;border:1px solid #b8b8b8;border-color:#b8b8b8 #cccccc #cccccc #b8b8b8;float:left;}
+.user .type:hover{border:1px solid #ababab;}
+.user .change{position:absolute;right:1px;bottom:0;width:100px;height:0px;background:url(../img/sprit.gif) no-repeat;background-position:-241px -199px;padding-top:34px;overflow:hidden;}
+.user .change:hover{background-position:-342px -199px;}
+
+/* --百度导航---------------------------------------------------------------------------- */
+.classic{width:100%;}
+.classic .LeftSong{float:left;margin-left:215px;height:36px;line-height:36px;display:inline;}
+.LeftSong a{color:#7a7a7a;margin:0 3px;}
+.LeftSong a:hover{text-decoration:underline;}
+.classic .RightPg{float:right;height:36px;color:#cccccc;width:364px;margin-right:45px}
+.classic li{height:36px;width:51px;position:relative;float:left;}
+.RightPg .line{float:left;margin-right:-3px;margin-top:8px;display:inline-block;}
+.classic .ico{height:23px;width:24px;position:absolute;left:12px;top:4px;background:url(../img/sprit.gif) no-repeat;}
+.classic .DU{background-position:-204px 0;}
+.classic .any{background-position:-228px 0;}
+.classic .video{background-position:-252px 0;}
+.classic .king{background-position:-276px 0;}
+.classic .tv{background-position:-300px 0;}
+.classic .PHONE{background-position:-324px 0;}
+.classic #DF{height:36px;width:58px;position:relative;float:left;}
+.classic #VIP{height:23px;width:34px;position:absolute;left:12px;top:4px;background:url(../img/sprit.gif) no-repeat;background-position:-170px 0;}
+/* --经典老歌---------------------------------------------------------------------------- */
+.header .NG{width:100%;height:42px;background:#337ccb;margin-top:1px;line-height:38px;}
+.NG .type{float:left;font-size:16px;margin-left:65px;text-align:center;display:inline;}
+.type a{float:left;width:112px;height:42px;border-right:1px solid #5893d2;color:#ffffff;}
+.type a:hover{background:#64aeff;}
+.type #Fp{background:#64aeff;}
+.NG .MusicBox{float:right;font-size:14px;line-height:24px;margin-right:59px;display:inline;}
+.MusicBox .same{float:left;width:143px;height:26px;border:1px solid #226dbe;background:#fff;margin:7px 5px;text-indent:57px;color:#000000;position:relative;}
+.same span{position:absolute;height:17px;width:15px;left:21px;top:4px;background:url(../img/sprit.gif) no-repeat;}
+.same .hear{background-position:-348px 0;}
+.same .mine{background-position:-363px 0;}
+/* --百度头部---------------------------------------------------------------------------- */
+.warp{width:100%;height:1427px;border-bottom:1px solid #e6e6e6;}
+.contentMiddle{width:1220px;margin:0 auto;}
+.contenleft{width:902px;float:left;}
+.contenleft .hearing{width:880px;height:72px;background:#f8f8f8;position:relative; margin-top:22px;}
+.hearing .bg{position:absolute;height:44px;width:44px;left:14px;top:14px;background:url(../img/sprit.gif) no-repeat;background-position:0 -43px;float:left;}
+.hearing .find{float:left;margin-left:68px;display:inline;}
+.find .heart{font-size:16px;line-height:26px;margin-top:11px;}
+.find .direct{font-size:14px;line-height:24px;color:#999999;}
+.hearing .list{float:left;margin-left:22px;display:inline;}
+.hearing .list li{width:110px;height:40px;float:left;background:#fff;margin:15px 11px 0;position:relative;display:inline;}
+.hearing .list span{height:35px;width:38px;position:absolute;left:17px;top:0;background:url(../img/sprit.gif) no-repeat;}
+.hearing .list .ico{background-position:-57px -44px;}
+.hearing .list .ico1{background-position:-95px -44px;}
+.hearing .list .ico2{background-position:-133px -44px;}
+.hearing .list .ico3{background-position:-171px -44px;}
+.hearing .list .ico4{background-position:-209px -44px;}
+.hearing .list a{color:#343434;float:right;line-height:38px;text-indent:68px;border:1px solid #e4e4e4;width:108px;height:38px;position:relative;}
+.hearing .list a:hover{border:1px solid #d5d5d5;}
+.hearing .list #anyway{text-indent:55px;}
+.hearing .Previous{position:absolute;height:21px;width:13px;left:178px;top:24px;background:url(../img/sprit.gif) no-repeat;background-position:-44px -44px;}
+.hearing .Previous:hover{background-position:-264px -23px;}
+.hearing .Next{position:absolute;height:21px;width:13px;right:16px;top:24px;background:url(../img/sprit.gif) no-repeat;background-position:-247px -44px;}
+.hearing .Next:hover{background-position:-281px -23px;}
+/* --百度随心听---------------------------------------------------------------------------- */
+.voice{width:902px;margin-top:20px;}
+.voice .leftImg{width:580px;height:200px;position:relative;float:left;}
+.leftImg img{width:580px;height:200px;}
+.leftImg .play{width:32px;height:32px;position:absolute;left:5px;bottom:5px;background:url(../img/sprit.gif) no-repeat;background-position:-260px -44px;}
+.leftImg .play:hover{background-position:-353px -48px;}
+.leftImg .bg{width:105px;height:16px;position:absolute;right:10px;bottom:10px;background:#5b5c64;opacity:0.4; filter:alpha(opacity=40);border-radius:4px;}
+.leftImg .round{width:105px;height:6px;position:absolute;right:10px;bottom:15px;}
+.leftImg .round .dot{width:6px;height:6px;border-radius:100%;margin:0 3px;background:#cccccc;float:left;overflow:hidden;}
+.leftImg .round .long{width:15px;height:6px;border-radius:2px;background:#327ccb;}
+.leftImg .Previous{width:30px;height:100px;position:absolute;left:-15px;top:50px;background:#b2b2b2;border-radius:4px;opacity:0.6; filter:alpha(opacity=60);}
+.leftImg .triangle{width:13px;height:21px;position:absolute;left:-7px;top:84px;background:url(../img/sprit.gif) no-repeat;background-position:-447px 0;}
+.leftImg .triangle:hover{background:url(../img/sprit.gif) no-repeat;background-position:-433px 0}
+.leftImg .Next{width:30px;height:100px;position:absolute;top:50px;right:-15px;background:#b2b2b2;border-radius:4px;opacity:0.6; filter:alpha(opacity=60);}
+.leftImg .triangle1{width:13px;height:21px;position:absolute;right:-7px;top:84px;background:url(../img/sprit.gif) no-repeat;background-position:-460px 0;}
+.leftImg .triangle1:hover{background-position:-420px 0;}
+.voice .rightDown{float:left;margin-left:20px;width:278px;height:197px;border:1px solid #e6e6e6;border-bottom:none;}
+.rightDown .list{float:left;width:125px;}
+.rightDown li{width:125px;height:65px;border-bottom:1px solid #e6e6e6;}
+.rightDown li a{width:125px;height:65px;display:block;position:relative}
+.rightDown .list .computer{position:absolute;left:0;bottom:0;background:url(../img/sprit1.gif) no-repeat;width:125px;height:65px;display:none;}
+.rightDown .list a:hover .computer{background-position:-556px 0;display:block;}
+.rightDown .list .Andriod{position:absolute;left:0;bottom:0;background:url(../img/sprit1.gif) no-repeat;width:125px;height:65px;display:none;}
+.rightDown .list a:hover .Andriod{background-position:-682px 0;display:block;}
+.rightDown .list .IOS{position:absolute;left:0;bottom:0;background:url(../img/sprit1.gif) no-repeat;width:125px;height:65px;display:none;}
+.rightDown .list a:hover .IOS{background-position:-808px 0;display:block;}
+
+.rightDown .pc{width:152px;height:197px;border-left:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;float:right;left:5px;bottom:5px;}
+/* --百度音乐人---------------------------------------------------------------------------- */
+.only{height:40px;margin-top:12px;position:relative;}
+.only h2{float:left;width:40px;height:0px;position:absolute;background:url(../img/sprit.gif) no-repeat;left:0;top:10px;background-position:-379px 0;padding-top:19px;overflow:hidden;}
+.only .more{float:left;margin-left:65px;line-height:36px;margin-top:3px;color:#3373cc;}
+.only .more:hover{text-decoration:underline;}
+.only .bar{width:1px;height:8px;position:absolute;background:url(../img/sprit.gif) no-repeat;left:55px;top:16px;background-position:-420px 0;}
+.only nav{float:right;width:57px;height:6px;position:absolute;top:17px;right:22px;position:relative;}
+.only nav .dot{float:right;width:6px;height:6px;margin:0 3px;border-radius:100%;background:#cccccc;overflow:hidden;}
+.only nav .DF{width:15px;height:6px;border-radius:2px;background:#327ccb;}
+.singers{width:902px;height:135px;margin-left:-11px;}
+.singers img{width:90px;height:90px;box-shadow:1px 0 5px 0px #000;position:relative;}
+.singers li{float:left;width:90px;height:135px;margin:0 11px;display:inline;position:relative;}
+.singers li .time{line-height:22px;margin-top:5px;font-size:14px; }
+.singers li .dot1{color:#333333;}
+.singers a:hover{text-decoration:underline;}
+.singers li .name{line-height:18px;font-size:12px;}
+.singers li .dot{color:#999999;}
+.singers li .play{width:32px;height:32px;position:absolute;left:56px;top:54px;background:url(../img/sprit.gif) no-repeat;background-position:-260px -44px;}
+.singers .play:hover{background-position:-353px -48px;}
+.singers .lonely{width:40px;height:40px;position:absolute;left:58px;top:-6px;background:url(../img/sprit.gif) no-repeat;background-position:-298px -44px;}
+.singers li .du{width:13px;height:13px;position:absolute;left:45px;top:120px;background:url(../img/sprit.gif) no-repeat;background-position:-338px -58px;}
+.singers li .previous{width:30px;height:100px;position:absolute;left:-15px;top:14px;background:#b2b2b2;border-radius:4px;opacity:0.6; filter:alpha(opacity=60);}
+.singers li .triangle{width:13px;height:21px;position:absolute;left:-7px;top:54px;background:url(../img/sprit.gif) no-repeat;background-position:-447px 0;}
+.singers li .triangle:hover{background:url(../img/sprit.gif) no-repeat;background-position:-433px 0}
+.singers li .next{width:30px;height:100px;position:absolute;top:14px;right:-21px;background:#b2b2b2;border-radius:4px;opacity:0.6; filter:alpha(opacity=60);}
+.singers li .triangle1{width:13px;height:21px;position:absolute;right:-13px;top:54px;background:url(../img/sprit.gif) no-repeat;background-position:-460px 0;}
+.singers li .triangle1:hover{background-position:-420px 0;}
+/* --首发------------------------------------------------------------------------- */
+.contenleft .ad{width:728px;height:90px;text-indent:90px;margin-top:20px;}
+.ad img{width:728px;height:90px;}
+/* --广告------------------------------------------------------------------------- */
+.contenleft .SongList{width:902px;height:730px;margin-top:40px;}
+.SongList .list2{float:left;width:897px;height:1px;background:url(../img/sprit.gif) repeat-x;background-position:0 -256px;overflow:hidden;}
+.SongList .list{width:299px;height:354px;float:left;border-right:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;}
+.SongList #NewRanking{width:279px; }
+#NewRanking .all h2{width:97px;height:0;float:left;background:url(../img/sprit.gif) no-repeat;background-position:0 -90px;padding-top:30px;overflow:hidden;display:inline;}
+.SongList .list .PlayAll{float:right;width:74px;height:22px;margin-right:20px;margin-top:8px;background:url(../img/sprit.gif) no-repeat;background-position:-419px -87px;display:inline;}
+.SongList .list1 .PlayAll{float:right;width:74px;height:22px;margin-right:20px;margin-top:28px;background:url(../img/sprit.gif) no-repeat;background-position:-419px -87px;display:inline;}
+.SongList li .PlayAll:hover{background-position:-419px -65px;}
+.NewContent{ margin-top:11px;}
+.NewContent .NewList{height:27px;line-height:27px;width:279px; vertical-align:top;}
+.NewContent .NewList .number{color:#999999;font-size:14px;float:left;width:122px;}
+.NewContent .NewList .namer{color:#999999;font-size:14px;float:left;width:122px;}
+.NewContent .namer .name{margin-left:8px;color:#333333}
+.NewContent .NewList #first{color:#ff6d01;font-size:14px;}
+.NewContent .NewList .person{color:#333333;margin-left:8px;font-size:14px;}
+.NewContent .NewList .person:hover{text-decoration:underline;}
+.NewList .singer{float:left;margin-left:20px;display:inline;width:72px;}
+.NewList .name{color:#999999;}
+.NewList .name:hover{text-decoration:underline;}
+.NewContent .NewList .play{width:9px;height:12px;background:url(../img/sprit.gif) no-repeat;background-position:-351px -146px;float:left;margin-left:10px;margin-top:7px;}
+.NewContent .NewList .play:hover{background-position:-350px -109px;}
+.NewContent .NewList .add{width:12px;height:12px;background:url(../img/sprit.gif) no-repeat;background-position:-473px 0;float:left;margin-left:10px;margin-top:7px;}
+.NewContent .NewList .add:hover{background-position:-359px -109px;}
+.SongList footer{line-height:40px;margin-left:20px;}
+#NewRanking footer{margin-left:0;}
+.SongList .whole{color:#3373cc}
+.SongList .whole:hover{text-decoration:underline;}
+.SongList #SingerRanking{border-right:none;}
+.SongList .list1{width:299px;height:374px;float:left;border-right:1px solid #e6e6e6;}
+.SongList .HotSong h2{width:91px;height:0;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-166px -87px;padding-top:28px;overflow:hidden;margin-left:20px;display:inline;}
+.SongList .PopSinger h2{width:88px;height:0;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-257px -87px;padding-top:34px;overflow:hidden;margin-top:-2px;margin-left:20px;display:inline;}
+.SongList .classics h2{width:129px;height:0;float:left;background:url(../img/sprit.gif) no-repeat;background-position:0 -121px;padding-top:25px;overflow:hidden;margin-top:21px;display:inline;}
+.SongList .NetSong h2{width:122px;height:0;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-363PX -122px;padding-top:29px;overflow:hidden;margin-top:21px;margin-left:20px;display:inline;}
+.SongList .CreatRangking h2{width:104px;height:0;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-246px -121px;padding-top:34px;overflow:hidden;margin-top:18px;margin-left:20px;display:inline;}
+.Same{margin-left:22px;}
+/* --歌榜------------------------------------------------------------------------- */
+.contenleft .Everying{height:46px;line-height:40px;}
+.contenleft .Everying a{font-size:14px;margin-right:32px;color:#333333;display:inline-block;}
+.contenleft .Everying a:hover{text-decoration:underline;}
+/* --左侧底部导航------------------------------------------------------------------------- */
+.contenright{width:316px;float:right;border-left:1px solid #e6e6e6;border-right:1px solid #e6e6e6;background:#f8f8f8;margin-top:1px;}
+.contenright .MusicType{height:15px;margin-top:25px;}
+.contenright .MusicType h2{width:64px;height:0;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-379px -21px;padding-top:15px;overflow:hidden;margin-left:20px;display:inline;}
+.Many{width:286px;margin-left:20px;margin-top:12px;}
+.MusicType .bar{width:1px;height:8px;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-599px -78px;margin-top:3px;margin-left:15px;}
+.MusicType a{float:left;color:#3373cc;margin-top:1px;margin-left:9px;line-height:14px;}
+.MusicType a:hover{text-decoration:underline;}
+.Many a{float:left;border:1px solid #e6e6e6;padding:2px 10px 0;color:#000;margin:0 5px 5px 0;background:#fff;height:26px;line-height:26px;}
+.Many a:hover{background:#327ccb;color:#fff;}
+/* --音乐分类------------------------------------------------------------------------- */
+.NewRecomond{width:316px;height:218px;margin-top:8px;text-indent:53px;}
+.NewRecomond img{width:200px;height:200px;}
+.NewRecomond .bg{width:276px;height:3px;background:url(../img/sprit.gif) no-repeat;background-position:0 -155px;margin-top:15px;margin-left:20px;overflow:hidden;}
+/* --歌单推荐------------------------------------------------------------------------- */
+.SingersTeam{margin-top:11px;margin-left:20px;}
+.SingersTeam li{height:88px;}
+.SingersTeam .langueage{width:80px;height:0;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-170px -23px;padding-top:16px;overflow:hidden;margin-top:8px;}
+.SingersTeam .female{width:80px;height:0;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-520px -17px;padding-top:15px;overflow:hidden;margin-top:8px;}
+.SingersTeam .teamer{width:64px;height:0;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-536px -33px;padding-top:15px;overflow:hidden;margin-top:9px;}
+.SingersTeam .Musicperson{width:80px;height:0;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-520px -48px;padding-top:15px;overflow:hidden;margin-top:9px;}
+.SingersTeam .title{height:32px; line-height:32px;}
+.SingersTeam .title .bar{width:1px;height:8px;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-599px -78px;margin-top:12px;margin-left:15px;}
+.title a{color:#3373cc;float:left;margin-left:9px;}
+.SingersTeam a:hover{text-decoration:underline;}
+.SingersTeam nav a{line-height:28px;color:#333333;width:55px;height:28px;display:inline-block;}
+.contenright .bg1{width:276px;height:3px;background:url(../img/sprit.gif) no-repeat;background-position:0 -155px;margin-top:20px;margin-left:20px;overflow:hidden;}
+/* --华语歌手------------------------------------------------------------------------- */
+.Hotaction{margin-left:20px;margin-top:15px;}
+.Hotaction h2{width:64px;height:0;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-536px -63px;padding-top:15px;overflow:hidden;display:inline;}
+.Hotaction .bar{width:1px;height:8px;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-599px -78px;margin-top:3px;margin-left:15px;}
+.Hotaction a{color:#3373cc;float:left;margin-top:1px;margin-left:9px;}
+.Hotaction a:hover{text-decoration:underline;}
+.action{margin-left:20px;height:440px;margin-bottom:-1px;margin-top:12px;}
+.action li{width:276px;height:147px;}
+.action li img{width:276px;height:110px;}
+.action li p{height:16px;padding-top:8px;}
+.action a{line-height:16px;color:#333333;font-size:14px;display:inline-block;}
+.action a:hover{text-decoration:underline;}
+/* --热门活动------------------------------------------------------------------------- */
+.warp1{width:100%;height:249px;border-bottom:1px solid #e6e6e6;background:#f8f8f8;}
+.PrettyGirl{height:249px;margin-left:65px;}
+.PrettyGirl .title{height:19px;padding-top:29px;}
+.PrettyGirl h2{width:120px;height:0;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-363px -153px;padding-top:19px;overflow:hidden;display:inline;}
+.PrettyGirl .bar{width:1px;height:8px;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-599px -78px;margin-top:5px;margin-left:19px;}
+.PrettyGirl .title a{color:#3373cc;float:left;margin-left:14px;margin-top:3px;}
+.PrettyGirl .title a:hover{text-decoration:underline;}
+.Girls{margin-top:35px;}
+.Girls li{float:left;width:120px;height:127px;margin-right:36px;display:inline;}
+.Girls li .img{width:120px;height:90px;position:relative;}
+.Girls img{width:118px;height:90px;}
+.Girls .online{position:absolute;width:44px;height:22px;left:76px;top:0;background:url(../img/sprit.gif) no-repeat;background-position:0 -158px;}
+.Girls .name{color:#3373cc;line-heighr:18px;height:18px;paidding-top:1px;display:block;}
+.Girls .number{color:#999999;line-height:19px;height:19px;}
+.Girls .img:hover .name{text-decoration:underline;display:block;}
+.Girls .img:hover .number{display:inline-block;border-bottom: 1px solid blue;height: 15px;}
+/* --美女直播推荐------------------------------------------------------------------------- */
+.warp2{width:100%;height:497px;border-bottom:1px solid #e6e6e6;}
+.SingerList{height:445px;margin-left:65px;position:relative;width:1232px;}
+.SingerList .sift{height:20px;padding-top:29px;}
+.SingerList h2{width:80px;height:0;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-520px -86px;padding-top:20px;overflow:hidden;display:inline;}
+.SingerList .bar{width:1px;height:8px;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-599px -78px;margin-top:5px;margin-left:19px;}
+.SingerList .sift .Doting{float:right;width:45px;height:6px;position:absolute;right:3px;top:34px;margin-right:8px;overflow:hidden;display:inline;}
+.SingerList .sift .dot{float:left;width:6px;height:6px;margin:0 3px;border-radius:100%;background:#cccccc;overflow:hidden;}
+.SingerList .sift .dot1{width:15px;height:6px;border-radius:2px;background:#327ccb;overflow:hidden;}
+.SingerList .sift a{color:#3373cc;float:left;margin-left:14px;margin-top:3px;}
+.SingerList .sift a:hover{text-decoration:underline;}
+.SingerList .sonw {margin-top:22px;width:1232px;margin-left:-8px;}
+.sonw li{float:left;width:158px;height:372px;border:1px solid #f2f2f2;margin:0 8px;display:inline;}
+.sonw li p{font-size:14px;font-weight:bold;padding:15px 0 0 14px;}
+.sonw li a{color:#333333;}
+.sonw li a:hover{text-decoration:underline;}
+.sonw .img{width:130px;height:130px;position:relative;padding:14px 0 0 14px;}
+.sonw img{width:130px;height:130px;}
+.sonw .play{width:32px;height:32px;position:absolute;right:6px;bottom:6px;background:url(../img/sprit.gif) no-repeat;background-position:-260px -44px;}
+.sonw .play:hover{background-position:-353px -48px;}
+.sonw .wind{padding-top:15px;height:54px;padding-left:16px;}
+.sonw .dashed{width:129px;height:0;border-top:1px dashed #f2f2f2;margin-left:15px;overflow:hidden;}
+.sonw dt{font-size:14px;height:26px;line-height:26px;margin-left:-1px;}
+.sonw dt a{color:#333333;}
+.sonw dd{height:26px;line-height:26px;margin-left:-1px;padding-bottom:2px;}
+.sonw dd a{color:#999999;}
+.sonw .nature{padding-top:5px;height:54px;padding-left:16px;}
+.sonw .bird{padding-top:5px;height:54px;padding-left:16px;}
+.SingerList .Previous{width:30px;height:100px;position:absolute;left:-15px;top:205px;background:#b2b2b2;border-radius:4px;opacity:0.6; filter:alpha(opacity=60);}
+.SingerList .triangle{width:13px;height:21px;position:absolute;left:-7px;top:244px;background:url(../img/sprit.gif) no-repeat;background-position:-447px 0;}
+.SingerList .triangle:hover{background:url(../img/sprit.gif) no-repeat;background-position:-433px 0}
+.SingerList .Next{width:30px;height:100px;position:absolute;top:205px;right:-2px;background:#b2b2b2;border-radius:4px;opacity:0.6; filter:alpha(opacity=60);}
+.SingerList .triangle1{width:13px;height:21px;position:absolute;right:7px;top:244px;background:url(../img/sprit.gif) no-repeat;background-position:-460px 0;}
+.SingerList .triangle1:hover{background-position:-420px 0;}
+/* --歌单精选------------------------------------------------------------------------- */
+.warp3{width:100%;height:275px;border-bottom:1px solid #e6e6e6;background:#f8f8f8;}
+.MovieSong{height:241px;margin-left:65px;position:relative;}
+.MovieSong .title{height:20px;padding-top:29px;position:relative;}
+.MovieSong .title h2{width:79px;height:0;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-520px -107px;padding-top:20px;overflow:hidden;display:inline;}
+.MovieSong .Doting{float:right;width:57px;height:6px;position:absolute;right:67px;top:34px;overflow:hidden;}
+.MovieSong .Doting .dot{float:left;width:6px;height:6px;margin:0 3px;border-radius:100%;background:#cccccc;}
+.MovieSong .Doting .dot1{width:15px;height:6px;border-radius:2px;background:#327ccb;}
+.MovieSong .MovieList{padding-top:22px;position:relative;}
+.MovieList li{float:left;width:273px;height:170px;margin-right:40px;display:inline;}
+.MovieList li .LeftImg{float:left;width:130px;height:170px;display:inline;position:relative;}
+.MovieList li img{width:130px;height:170px;box-shadow:2px 3px 3px #ebebeb;}
+.MovieList li .play{position:absolute;width:32px;height:32px;position:absolute;right:6px;bottom:6px;background:url(../img/sprit.gif) no-repeat;background-position:-260px -44px;}
+.MovieList .play:hover{background-position:-353px -48px;}
+.MovieList li .Right{float:left;width:133px;margin-left:10px;display:inline;}
+.MovieList .Right .name{font-size:14px;color:#333333;font-weight:bold;height:25px;line-height:22px;display:block;}
+.MovieList .Right dd{height:30px;line-height:30px;}
+.MovieList .Right .triangle{width:9px;height:12px;background:url(../img/sprit.gif) no-repeat;background-position:-351px -146px;float:left;margin-top:8px;}
+.MovieList .Right .triangle:hover{background-position:-350px -109px;}
+.MovieList .Right .moviename{float:left;margin-left:10px;color:#333333;}
+.MovieList .Right a:hover{text-decoration:underline;}
+.MovieList .Right p{float:left;margin-left:6px;display:inline;color:#999999;}
+.MovieSong .Previous{width:30px;height:100px;position:absolute;left:-15px;top:110px;background:#b2b2b2;border-radius:4px;opacity:0.6; filter:alpha(opacity=60);}
+.MovieSong .Triangle{width:13px;height:21px;position:absolute;left:-6px;top:150px;background:url(../img/sprit.gif) no-repeat;background-position:-447px 0;}
+.MovieSong .Triangle:hover{background:url(../img/sprit.gif) no-repeat;background-position:-433px 0;}
+.MovieSong .Next{width:30px;height:100px;position:absolute;top:110px;right:52px;background:#b2b2b2;border-radius:4px;opacity:0.6; filter:alpha(opacity=60);}
+.MovieSong .Triangle1{width:13px;height:21px;position:absolute;right:60px;top:150px;background:url(../img/sprit.gif) no-repeat;background-position:-460px 0;}
+.MovieSong .Triangle1:hover{background-position:-420px 0;}
+
+/* --影视歌曲------------------------------------------------------------------------- */
+.warp4{width:100%;height:400px;border-bottom:1px solid #e6e6e6;}
+.MVList{height:400px;width:1220px;margin:0 auto;position:relative;}
+.MVList .MV{height:15px;padding-top:31px;}
+.MVList .MV h2{width:34px;height:0;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-566px -128px;padding-top:15px;overflow:hidden;display:inline;}
+.MVList .MV .bar{width:1px;height:8px;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-599px -78px;margin-top:3px;margin-left:19px;}
+.MVList .MV a{color:#3373cc;float:left;margin-left:14px;margin-top:1px;}
+.MVList .MV .Doting{float:right;width:45px;height:6px;position:absolute;right:3px;top:34px;overflow:hidden;}
+.MVList .MV .dot{float:left;width:6px;height:6px;margin:0 3px;border-radius:100%;background:#cccccc;}
+.MVList .MV .dot1{width:15px;height:6px;border-radius:2px;background:#327ccb;}
+.MVList .tomorrow{padding-top:25px;margin-left:-40px;}
+.MVList .tomorrow li{float:left;width:168px;height:160px;margin:0 2px 0 40px;display:inline;}
+.tomorrow li .img{width:160px;height:90px;border:1px solid #cccccc;padding:3px;box-shadow:2px 3px 3px #ebebeb;position:relative;}
+.tomorrow li img{width:160px;height:90px;}
+.tomorrow .img .play{position:absolute;width:32px;height:32px;position:absolute;right:6px;bottom:6px;background:url(../img/sprit.gif) no-repeat;background-position:-260px -44px;}
+.tomorrow .img .play:hover{background-position:-353px -48px;}
+.tomorrow .img .new{position:absolute;width:40px;height:40px;position:absolute;right:-8px;top:-8px;background:url(../img/sprit.gif) no-repeat;background-position:0 -180px;}
+.tomorrow .kiss{font-size:14px;color:#333333;line-height:28px;height:28px;padding-left:10px;display:block;}
+.tomorrow .singer{font-size:12px;color:#999999;line-height:26px;height:26px;padding-left:10px;;padding-bottom:4px;display:block;}
+.MVList a:hover{text-decoration:underline;}
+.MVList .Previous{width:30px;height:100px;position:absolute;left:-15px;top:174px;background:#b2b2b2;border-radius:4px;opacity:0.6; filter:alpha(opacity=60);}
+.MVList .triangle{width:13px;height:21px;position:absolute;left:-6px;top:214px;background:url(../img/sprit.gif) no-repeat;background-position:-447px 0;}
+.MVList .triangle:hover{background:url(../img/sprit.gif) no-repeat;background-position:-433px 0}
+.MVList .Next{width:30px;height:100px;position:absolute;top:174px;right:-15px;background:#b2b2b2;border-radius:4px;opacity:0.6; filter:alpha(opacity=60);}
+.MVList .triangle1{width:13px;height:21px;position:absolute;right:-7px;top:214px;background:url(../img/sprit.gif) no-repeat;background-position:-460px 0;}
+.MVList .triangle1:hover{background-position:-420px 0;}
+/* --MV------------------------------------------------------------------------- */
+.warp5{width:100%;height:854px;border-bottom:1px solid #e6e6e6;background:#f8f8f8;}
+.BaiduPlayer{height:854px;width:1220px;margin:0 auto;}
+.BaiduPlayer a:hover{text-decoration:underline;}
+.BaiduPlayer .program{height:36px;padding-top:25px;}
+.program h2{width:125px;height:0;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-475px -172px;padding-top:36px;overflow:hidden;display:inline;}
+.program .joke{width:396px;height:36px;float:left;margin-left:6px;display:inline;}
+.program .joke a{float:left;padding:0 14px;height:36px;line-height:36px;color:#333333;}
+.program .joke .bar{width:1px;height:8px;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-599px -78px;margin-top:14px;}
+.BaiduPlayer .voice{margin-left:-28px;width:1248px;}
+.BaiduPlayer .voice li{float:left;width:280px;height:132px;margin:0 4px 0 28px;display:inline;}
+.BaiduPlayer .voice img{width:280px;height:100px;}
+.BaiduPlayer .voice .time{font-size:14px;height:32px;line-height:32px;display:block;color:#333333;}
+.BaiduPlayer .HotPragram{height:14px;padding:18px 0;}
+.BaiduPlayer .HotPragram h3{width:58px;height:0;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-542px -144px;padding-top:14px;overflow:hidden;display:inline;}
+.BaiduPlayer .HotPragram .bar{width:1px;height:8px;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-599px -78px;margin-top:4px;margin-left:16px;}
+.BaiduPlayer .HotPragram a{color:#3373cc;float:left;margin-left:14px;margin-top:1px;}
+.BaiduPlayer .StongRecommond{width:1216px;height:360px;border:1px solid #e6e6e6;border-right:none;}
+.BaiduPlayer .StongRecommond li{width:303px;height:360px;border-right:1px solid #e6e6e6;float:left;}
+.StongRecommond li img{width:36px;height:36px;}
+.StongRecommond .advise{width:303px;height:50px;border-bottom:1px solid #e6e6e6;position:relative;}
+.StongRecommond .advise .fire{width:89px;height:0;position:absolute;left:0;top:0;background:url(../img/sprit1.gif) no-repeat;padding-top:51px;overflow:hidden;}
+.StongRecommond .advise .motion{background-position:0 0;}
+.StongRecommond .advise .music{background-position:-89px 0;}
+.StongRecommond .advise .facetious{background-position:-178px 0;}
+.StongRecommond .advise .reading{background-position:-267px 0;}
+.StongRecommond .same{width:283px;height:37px;color:#999999;padding:12px 0 11px 20px;position:relative;}
+.StongRecommond .same .img{float:left;width:36px;height:32px;padding:3px 0 1px 0;}
+.StongRecommond .same .word{float:left;height:36px;margin-left:10px;}
+.StongRecommond .same .memory{color:#333333;height:19px;line-height:18px;}
+.StongRecommond .same .bar{height:18px;line-height:18px;}
+.StongRecommond .same .play{position:absolute;width:30px;height:30px;top:20px;right:21px;background:url(../img/sprit1.gif) no-repeat;background-position:0 -51px;}
+.StongRecommond .same .play:hover{width:32px;height:32px;background-position:0 -456px;}
+.StongRecommond .dot{width:263px;height:1px;background:url(../img/sprit1.gif) no-repeat;background-position:0 -81px;overflow:hidden;margin-left:20px;}
+.BaiduPlayer .pic{height:70px;margin-left:-40px;padding-top:20px;}
+.BaiduPlayer img{width:200px;height:70px;border-radius:10px;box-shadow:2px 2px 4px #e5e5e5;}
+.BaiduPlayer .picture{margin:0 10px 0 40px;}
+.BaiduPlayer .life{padding-top:20px;width:1220px;}
+.BaiduPlayer .life .MangThings{width:131px;height:97px;padding-left:20px;float:left;}
+.BaiduPlayer .MangThings dt{height:29px;line-height:26px;}
+.BaiduPlayer .MangThings .child{font-size:14px;color:#333333;}
+.BaiduPlayer .MangThings .culture{height:24px;line-height:24px;color:#999999;}
+.BaiduPlayer .life .dot{float:left;width:1px;height:97px;background:url(../img/sprit1.gif) no-repeat;background-position:-357px 0;}
+/* --热门节目------------------------------------------------------------------------- */
+.warp6{width:100%;height:560px;border-bottom:1px solid #e6e6e6;}
+.warp6 .Kinglist{height:560px;width:1220px;margin:0 auto;}
+.Kinglist a:hover{text-decoration:underline;}
+.Kinglist .Bulletin{height:21px;padding:30px 0 21px 47px;}
+.Kinglist h2{width:61px;height:0;float:left;background:url(../img/sprit1.gif) no-repeat;background-position:0 -169px;padding-top:21px;overflow:hidden;display:inline;}
+.Bulletin .real{float:left;margin-left:13px;}
+.Bulletin .real a{float:left;padding:0 7px 0 6px;color:#333333;height:21px;line-height:16px;}
+.Bulletin .real span{float:left;width:1px;height:12px;background:url(../img/sprit1.gif) no-repeat;background-position:0 -82px;margin-top:2px;}
+.Kinglist .album{width:1220px;height:450px;}
+.Kinglist .album .TF{float:left;width:298px;height:448px;border:1px solid #eeeeee;border-right:none;}
+.album .TF .img{width:298px;height:448px;position:relative;}
+.album .TF img{width:298px;height:448px;}
+.album .TF .MS{position:absolute;width:45px;height:6px;right:10px;bottom:15px;}
+.TF .img .dot{float:left;width:6px;height:6px;margin:0 3px;border-radius:100%;color:#cccccc;}
+.TF .img .dot1{width:14px;height:6px;border-radius:2px;color:#327ccb;}
+.TF .crown{position:absolute;width:69px;height:67px;left:-31px;top:-32px;background:url(../img/sprit1.gif) no-repeat;background-position:-359px 0;}
+.TF .flower{position:absolute;width:99px;height:70px;left:-59px;bottom:21px;background:url(../img/sprit1.gif) no-repeat;background-position:0 -98px;}
+.TF .Previous{width:30px;height:100px;position:absolute;left:-15px;top:174px;background:#b2b2b2;border-radius:4px;opacity:0.6; filter:alpha(opacity=60);}
+.TF .triangle{width:13px;height:21px;position:absolute;left:-6px;top:214px;background:url(../img/sprit.gif) no-repeat;background-position:-447px 0;}
+.TF .triangle:hover{background:url(../img/sprit.gif) no-repeat;background-position:-433px 0}
+.TF .Next{width:30px;height:100px;position:absolute;top:174px;right:-15px;background:#b2b2b2;border-radius:4px;opacity:0.6; filter:alpha(opacity=60);}
+.TF .triangle1{width:13px;height:21px;position:absolute;right:-7px;top:214px;background:url(../img/sprit.gif) no-repeat;background-position:-460px 0;}
+.TF .triangle1:hover{background-position:-420px 0;}
+.album .Octomber{float:left;width:299px;height:448px;border:1px solid #e6e6e6;}
+.Octomber .img{width:299px;height:270px;border-bottom:1px solid #e6e6e6;}
+.Octomber .img img{width:299px;height:270px;}
+.Octomber .NewSongs{width:299px;height:177px;}
+ .NewSongs .natureal{float:left;width:149px;height:156px;border-right:1px solid #e6e6e6;text-align:center;padding-top:21px;position:relative;}
+.NewSongs .person{float:left;width:149px;height:156px;text-align:center;padding-top:21px;position:relative;}
+.person img{width:90px;height:90px;box-shadow:0px 0px 6px 1px #ebebeb;border-radius:5px;}
+.NewSongs img{width:90px;height:90px;box-shadow:0px 0px 6px 1px #ebebeb;border-radius:5px;}
+.album .korea{padding:9px;display:inline-block;}
+.NewSongs .name{color:#333333;height:18px;line-height:18px;display:block}
+.NewSongs .koreao{color:#999999;height:18px;line-height:18px;display:block}
+.NewSongs .play{position:absolute;width:30px;height:30px;top:119px;right:34px;background:url(../img/5NM2LFDO.png) no-repeat;background-position:-1105px 0;}
+.NewSongs .play:hover{background-position:-673px 0;}
+.album .rocker{float:left;width:300px;height:448px;border:1px solid #e6e6e6;border-left:none;}
+.rocker .img{width:300px;height:270px;border-bottom:1px solid #e6e6e6;}
+.rocker .img img{width:300px;height:270px;}
+.album .update{float:left;width:298px;height:425px;border:1px solid #f2f2f2;border-left:none;padding:23px 0 0 20px;}
+.album .update h3{width:141px;height:0;background:url(../img/sprit1.gif) no-repeat;background-position:0 -191px;padding-top:21px;overflow:hidden;}
+.album .update .time{width:274px;height:39px;border:1px solid #dbdbdb;border-radius:2px;padding-left:15px;margin-top:18px;color:#8b96a0;padding-top:9px;position:relative;}
+.album .time .will{margin-right:12px;height:30px;line-height:28px;}
+.album .time .zero{font-size:20px;font-weight:bold;width:23px;line-height:28px;border:1px solid #dbdbdb;margin:0 2px;display:inline-block;text-align:center;border-radius:3px;}
+.album .time .number{font-size:20px;font-weight:bold;}
+.album .time .after{margin-left:13px;height:30px;line-height:28px;}
+.album .time .kam{width:54px;height:68px;position:absolute;top:-69px;right:-2px;background:url(../img/sprit1.gif) no-repeat;background-position:-429px 0;display:inline-block;}
+.album .update .list{width:276px;height:288px;margin-top:20px;vertical-align:top;}
+.update .list li{width:276px;height:58px;line-height:56px;position:relative;}
+.update .list .one{float:left;color:#cc335e;font-size:18px;margin-left:10px;}
+.update .list .second{float:left;color:#000037;font-size:18px;margin-left:10px;}
+.update .list .young{color:#3373cc;margin-left:8px;font-size:14px;}
+.update .list .summer{background:#f2f2f2;}
+.update .list .newer{float:right;margin-right:65px;color:#333333;width:46px;}
+.update li .up{width:10px;height:10px;position:absolute;top:21px;right:20px;background:url(../img/sprit1.gif) no-repeat;background-position:-483px 0;display:inline-block;}
+/* --King榜------------------------------------------------------------------------------ */
+.warp7{width:100%;}
+.ad1{width:960px;height:90px;padding-top:50px;padding-bottom:69px;}
+.warp7 .foot{width:980px;margin:0 auto;}
+.warp7 .foot .center{width:980px;border-top:1px solid #e4e4e4;padding-top:25px;}
+.foot .center .nav{float:left;margin-left:-8px;}
+.foot .nav a:hover{text-decoration:underline;}
+.foot .center .whole{float:left;padding:0 8px;color:#333333;}
+.foot .center .bar{width:1px;height:8px;float:left;background:url(../img/sprit.gif) no-repeat;background-position:-599px -78px;margin-top:28px;}
+.foot .center .introction{float:left;margin-left:16px;color:#999999;}
+.introction a:hover{text-decoration:underline;}
+.foot .introction .chap{margin:0 14px 0 13px;color:#333333;}
+.foot .center .web{float:right;width:69px;height:22px;position:relative;margin-top:-6px;}
+.foot .web .focus1{position:absolute;width:69px;height:22px;left:0;top:0;background:url(../img/sprit1.gif) no-repeat;background-position:0 -237px;}
+.foot .web:hover .focus1{background-position:-419px -111px;}
+.foot .web .focus{position:relative;color:#333333;left:26px;top:4px;font-weight:bold;}
+.foot .web:hover .focus{color:#fff;}
+.foot .center .web1{float:right;width:96px;height:22px;position:relative;margin-left:10px;margin-top:-6px;display:inline}
+.foot .web1 .webchat{position:absolute;width:96px;height:22px;left:0;top:0;background:url(../img/sprit1.gif) no-repeat;background-position:0 -214px;}
+.foot .web1:hover .webchat{background-position:-419px -89px;}
+.foot .web1:hover .webchat1{color:#fff;}
+.foot .web1 .webchat1{position:relative;left:27px;top:4px;color:#333333;font-weight:bold;}
+/* --底部------------------------------------------------------------------------------ */
+.box{width:36px;height:81px;position:fixed;right:17px;bottom:196px;}
+.box .erwei{width:34px;height:36px;border:1px solid #e4e4e4;display:block;position:relative;background:#fff;}
+.box .erwei span{position:absolute;left:7px;top:8px;width:20px;height:20px;background:url(../img/sprit1.gif) no-repeat;background-position:-69px -50px;}
+.box .erwei:hover{background:url(../img/sprit1.gif) no-repeat;background-position:-321px -50px;}
+.box .erwei:hover span{width:20px;height:20px;background:url(../img/sprit1.gif) no-repeat;background-position:-329px -59px;}
+.box .erwei .stripe{position:absolute;left:-100px;top:0px;width:98px;height:118px;background:url(../img/sprit1.gif) no-repeat;background-position:-321px -89px;display:none;}
+.box .uphead{width:36px;height:38px;display:block;background:url(../img/sprit1.gif) no-repeat;background-position:-284px -90px;margin-top:5px;}
+.box .erwei:hover .stripe{position:absolute;left:-100px;top:0px;width:98px;height:118px;background:url(../img/sprit1.gif) no-repeat;background-position:-321px -89px;display:block;}
+.box .uphead:hover{background:url(../img/sprit1.gif) no-repeat;background-position:-269px -50px;}
+/* --固定定位------------------------------------------------------------------------------ */
+

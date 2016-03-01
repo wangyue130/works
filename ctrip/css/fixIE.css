@@ -1,0 +1,52 @@
+.clearfix{
+	*zoom:1;	
+}
+.sousuo {
+	*display: inline;
+}
+.rmmdd b{
+	*overflow: hidden;
+}
+.qqg_infopay b{
+	*padding-top: 2px;
+}
+.nav_bot dd{
+	*display: inline;
+}
+
+.top_r .rg_lg,.top_r .rg_kf,.top_r .rg_tel,.rg_lg .star,.nav .nav_list{
+	*overflow: hidden;
+	*cursor: pointer;
+}
+
+.nav_list .nav_item,.ss_head .ss_tit{
+	*margin-top: 2px;
+}
+.nav_list .star,.nav_active .star,.nav .nav_list:hover,.nav .nav_line{
+	*overflow: hidden;
+}
+.info_top .line{
+	*display: inline;
+	*overflow: hidden;
+}
+.nav_login .login_info{
+	*padding-top: 5px;
+}
+.nav_fj .nav_login,.ss_head .ss_bg,.dx_1 .dx_text{
+	*overflow: hidden;
+}
+.ss_head .ss_tit{
+	*margin-top:2px ;
+}
+.jdjb dd .jb_xz{
+	*margin-top: 2px;
+}
+.banner_page a,.more_list li{
+	*display: inline;
+	*zoom:1;
+}
+.ft_nav1 a,.ft_nav1 .line{
+	*display: inline;
+	*zoom:1;
+	*overflow: hidden;
+}

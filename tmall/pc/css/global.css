@@ -1,0 +1,249 @@
+/*吊顶共用部分*/
+.header{
+	width: 100%;
+	height: 139px;
+}
+.hang{
+	width: 100%;
+	height:26px;
+	border-bottom: 1px solid #e5e5e5;
+	background-color: #f2f2f2;
+	/*position: fixed;*/   /*固定定位先不加*/
+}
+.hang_width{
+	width: 1183px;
+	height: 14px;
+	margin: 0 auto;
+	padding: 7px 7px 5px 0;
+	*overflow: hidden;
+}
+.hang_left{
+	width: 311px;
+	height: 14px;
+	*overflow: hidden;
+	*margin-top:1px; /*?????*/
+}
+.hang_right{
+	width: 620px;
+	height:14px;
+	*overflow: hidden;
+	*zoom: 1;
+	*margin-top:1px; /*?????*/
+}
+.Tmall_HPage{
+	height: 14px;
+	*overflow: hidden;
+	margin-right: 20px;
+}
+.Tmall_HPage_icon{
+	background-position: 0 0;
+	width: 11px;
+	height: 14px;
+	*overflow: hidden;
+	margin-right: 2px;
+}
+.Tmall_HPage_text{
+	height: 14px;
+	line-height: 14px;
+	color: #999999;
+	font-size: 12px;
+	*overflow: hidden;
+}
+.welcome{
+	height: 14px;
+	line-height: 14px;
+	color: #999999;
+	font-size: 12px;
+	*overflow: hidden;
+	margin-right: 20px;
+}
+.log,.register{
+	height: 14px;
+	line-height: 14px;
+	color: #999999;
+	font-size: 12px;
+	*overflow: hidden;
+	margin-right: 20px;
+}
+.my_Tmall{
+	height: 14px;
+	*overflow: hidden;
+	margin-right: 17px;
+}
+.my_Tmall_text,.attention_brand_text,.shoppingcar_text,.favorite_text,.phone_text,.merchant_text,.web_nav_text,.taobaoweb{
+	height: 14px;
+	line-height: 14px;
+	color: #999999;
+	font-size: 12px;
+	*overflow: hidden;
+	cursor: pointer;
+	*margin-top: 1px;/*?????*/
+	
+}
+.my_Tmall_icon{
+	width: 6px;
+	height: 3px;
+	background-position: 0 -75px;
+	margin-top: 5px;
+	margin-left: 2px;
+	*overflow: hidden;
+	cursor: pointer;
+}
+.attention_brand_icon{
+	width: 11px;
+	height: 14px;
+	background-position: 0 -15px;
+	margin-right: 4px;
+	*overflow: hidden;
+}
+.attention_brand{
+	height: 14px;
+	*overflow: hidden;
+	margin-right: 20px;
+}
+.shoppingcar_icon{
+	width: 12px;
+	height: 14px;
+	background-position: 0 -30px;
+	*overflow: hidden;
+	margin-right: 4px;
+}
+.shoppingcar{
+	margin-right: 21px;
+	height: 14px;
+	*overflow: hidden;
+}
+.favorite_icon{
+	width: 6px;
+	height: 3px;
+	background-position: 0 -75px;
+	*overflow: hidden;
+	margin-top: 5px;
+	margin-left: 2px;
+}
+.favorite{
+	margin-right: 12px;
+	height: 14px;
+	*overflow: hidden;
+}
+.hang_right .line{
+	width: 1px;
+	height:14px;
+	background-color: #cccccc;
+	*overflow: hidden;
+	margin-top: -2px;
+	margin-right: 14px;
+}
+.phone_icon{
+	width: 10px;
+	height: 14px;
+	background-position: 0 -45px;
+	margin-right: 4px;
+}
+.phone{
+	margin-right:20px;
+	height: 14px;
+	*overflow: hidden;
+}
+.taobaoweb{
+	margin-right: 21px;
+}
+.merchant_icon,.web_nav_icon2{
+	width: 6px;
+	height: 3px;
+	background-position: 0 -75px;
+	*overflow: hidden;
+	margin-top: 5px;
+	margin-left: 2px;
+}
+.merchant{
+	margin-right: 18px;
+}
+.web_nav_icon1{
+	width: 12px;
+	height: 14px;
+	background-position:0 -60px;
+	*overflow: hidden;
+	margin-right: 4px;
+	padding-left: -19px;
+}
+/*底部公用部分*/
+.footer_bottom{
+	width: 100%;
+	height: 175px;
+	border-top: 2px solid #c40000;
+	background-color: #000000;
+}
+.footer_bottom_width{
+	width: 1190px;
+	margin: 0 auto;
+	height: 175px; 
+	position: relative;
+	padding-top: 10px;
+}
+.tmall_icon{
+	position: absolute;
+	left: 50px;
+	top:-25px;
+	width: 67px;
+	height: 23px;
+	background-position: 0 -467px;
+}
+.about,.linkweb{
+	margin-top: 0px;
+	margin-left: 10px;
+	font-size: 0px;
+}
+.about_text{
+	color: #ffffff;
+	margin-right: 7px;
+	font-size: 12px;
+	line-height: 25px;
+}
+.linkweb_text{
+	color: #ffffff;
+	margin-right:3px;
+	font-size: 12px;
+}
+.line1{
+	width: 1px;
+	height: 12px;
+	*overflow:hidden;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	background-color: #FFFFff;
+	vertical-align: -1px;
+	margin-right: 6px;
+}
+.copyright{
+	padding-left: 10px;
+	font-size: 0px;
+}
+.copyright_text{
+	color: #a4a4a4;
+	margin-right:65px;
+	font-size: 12px;
+	line-height: 20px;
+}
+.copyright_text a{
+	color: #a4a4a4;
+	font-size: 12px;
+	line-height: 20px;
+}
+.d_block{
+	display: block;
+}
+.copyright_pic{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.copy1{
+	width: 73px;
+	height: 30px;
+	margin-right: 10px;
+}
+.copy2{
+	width: 80px;
+	height: 30px;
+}

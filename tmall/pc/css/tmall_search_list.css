@@ -1,0 +1,269 @@
+.header{
+	width: 100%;
+	height: 159px;
+}
+.header2{
+	height:85px;
+	margin-bottom: 14px;
+}
+.header2_width{
+	width: 1190px;
+	height: 56px;
+	margin: 0 auto;
+	padding-top: 29px;
+	position: relative;
+}
+.logo{
+	width: 145px;
+	height: 42px;
+	margin-right: 135px;
+}
+.logo_icon{
+	width: 145px;
+	height: 0px;
+	padding-top: 42px;
+	overflow: hidden;
+	background-position: 0px 0px;
+}
+.input_box{
+	border: 3px solid #296ecc;
+	width: 499px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 5px;
+	color: #000000;
+}
+.submit_btn{
+	border:none;
+	width: 87px;
+	height: 36px;
+	color: #FFFFFF;
+	background-color: #296ecc;
+	font-weight: bold;
+	line-height: 36px;
+}
+.underbox_text{
+	width: 597px;
+	height: 14px;
+	position: absolute;
+	left: 280px;
+	top: 71px;
+	*overflow: hidden;
+}
+.underbox_text a{
+	height: 14px;
+	padding-right: 11px;
+	border-right: 1px solid #cccccc;
+	font-size: 12px;
+	line-height: 14px;
+	color: #999999;
+	vertical-align: top;
+	*overflow: hidden;
+	padding-left: 12px;
+}
+.underbox_text .pl0{
+	padding-left: 0px;
+}
+.underbox_text .br0{
+	border-right: none;
+}
+.content{
+	width:100%;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #d1d7dc;
+}
+.nav{
+	width:100%;
+	height: 33px;
+}
+.nav_width{
+	width: 1190px;
+	margin: 0 auto;
+	height: 32px;
+	border-bottom: 1px solid #0f64c2;
+}
+.nav_width_left{
+	width: 950px;
+	height: 32px;
+}
+.nav_width_right{
+	width: 210px;   /*177px padding-left：63px 这时IE6 有问题*/
+	height: 32px;
+	padding-left: 30px;
+	overflow: hidden;
+}
+.nav_width_left a{
+	padding: 0 30px;
+	line-height: 32px;
+	font-size: 12px;
+	color: #333333;
+	font-weight: bold;
+}
+.nav_width_right a{
+	/*padding: 0 6px 0 15px;*/
+	/*padding: 0 10px;*/
+	line-height: 32px;
+	font-size: 12px;
+	color: #333333;
+	padding-left: 15px;
+	padding-right: 6px;
+}
+.adv{
+	width: 100%;
+	height: 160px;
+	background-color: #18191e;
+	margin-bottom: 10px;
+}
+.adv_width{
+	width: 1190px;
+	height: 160px;
+	margin: 0 auto;
+}
+.adv_left{
+	width: 270px;
+	height: 160px;
+	background-color: #0a0b0f;
+	position: relative;
+}
+.adv_center{
+	width: 680px;
+	height: 160px;
+	background-color: orange;
+}
+.adv_brand_resume{
+	width: 240px;
+	height: 150px;
+	padding-top: 10px;
+}
+.resume_detail{
+	width: 207px;
+	height: 140px;
+	background-color: #0c0f11;
+	padding-left: 14px;
+	padding-right: 19px;
+	position: relative;
+}
+.line_left,.line_right{
+	width: 30px;
+	height: 1px;
+	*overflow: hidden;
+	background-color: #FFFFFF;
+}
+.line_left{
+	position: absolute;
+	top: 24px;
+	left: 50px;
+}
+.line_right{
+	position: absolute;
+	top: 24px;
+	left: 150px;
+}
+.resume_title{
+	width: 207px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 49px;
+	display: block;
+	color: #FFFFFF;
+}
+.resume_content{
+	font-size: 12px;
+	line-height: 18px;
+	color: #FFFFFF;
+	display: inline-block;
+}
+.meizu_store{
+	width: 270px;
+	height: 100px;
+	position: absolute;
+	top: 30px;
+	left: 0px;
+}
+.store_detail{
+	width: 92px;
+	height: 50px;
+	position: absolute;
+	right: 23px;
+	top: 24px;
+	padding-top: 9px;
+}
+.store_detail .icon{
+	background-position: 0 -42px;
+	width: 24px;
+	height: 21px;
+	margin-left: 33px;
+}
+.store_detail span{
+	font-size: 12px;
+	line-height: 29px;
+	width: 92px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.attention{
+	width: 120px;
+	height: 131px;
+	background-color: navajowhite;
+	position: absolute;
+	top: 20px;
+	left: 0px;
+}
+.adv_pic{
+	width: 680px;
+	height: 160px;
+	position: relative;
+}
+.purchase_btn{
+	width: 104px;
+	height: 33px;
+	position: absolute;
+	top: 91px;
+	left: 479px;
+}
+.search_key{
+	width: 1173px;
+	height: 38px;
+	margin: 0 auto;
+	border-top: 1px solid #e5e5e5;
+	background-color: greenyellow;
+	padding-left: 17px;
+	padding-top: 7px;
+}
+.all a{
+	margin-left: 8px;
+	margin-right: 8px;
+	font-size: 12px;
+	line-height: 24px;
+	height: 24px;
+	color: #666666;
+	display: inline-block;
+}
+.next_key_btn{
+	background-position: 0 -63px;
+	width: 5px;
+	height: 9px;
+	*overflow: hidden;
+	margin-top: 7px;
+	margin-right: 10px;
+}
+.brand{
+	width: 116px;
+	height: 22px;
+	border: 1px dotted #c40000;
+	position: relative;
+}
+.brand_icon{
+	width: 7px;
+	height: 7px;
+	*overflow: hidden;
+	position: absolute;
+	left: 100px;
+	top: 8px;
+	background-position: -5px -63px;
+}
+.brand span{
+	font-size: 12px;
+	line-height: 22px;
+	color: #c40000;
+}
